@@ -1,0 +1,56 @@
+.wframingCont {
+  width: 94vw;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(to bottom, var(--globalBox), transparent);
+  border-radius: var(--globalRadius);
+  padding: .25rem;
+  margin: 10rem auto 0 auto;
+  position: relative;
+}
+
+.wframingInner {
+  background: var(--globalBg);
+  border-radius: var(--globalRadius);
+  padding: 1rem;
+  width: 50vw;
+
+  p {
+    width: max-content !important;
+  }
+}
+
+.wFramingSubtitle {
+  font-weight: 700 !important;
+  margin-bottom: .1rem !important;
+}
+
+.wireframing_P {
+  max-width: 98% !important;
+}
+
+.wframingImg {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  mask-image: linear-gradient(rgb(0 0 0 / 100%), rgb(0 0 0 / 100%), transparent, transparent);
+}
+
+@media(max-width: 767px) {
+  .wframingCont {
+    margin: 5rem auto 0 auto;
+    height: 50vh;
+  }
+  .wframingInner {
+    padding: .5rem;
+    width: 65vw;
+  }
+  .wframingImg {
+    top: unset;
+    bottom: 0;
+    right: 0;
+    left: unset;
+    transform: translateX(-10%);
+  }
+}

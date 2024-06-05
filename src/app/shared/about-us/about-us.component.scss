@@ -1,0 +1,110 @@
+.routeTitleH5{
+  width: 100%;
+  position: relative;
+  font-weight: 700 !important;
+  font-size: 86px !important;
+  div{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200%;
+    height: 100%;
+    max-width: none;
+    background-image: linear-gradient(to right, transparent, var(--globalBg) 50%, var(--globalBg));
+  }
+}
+.about_p{
+  width: 80%;
+  color: var(--colorText) !important;
+  font-weight: 600 !important;
+  margin-bottom: 2.5rem !important
+}
+
+.itemWhyUs{
+  width: 100%;
+}
+.itemWhyUsInner{
+  width: 100%;
+  min-width: 100%;
+  justify-content: flex-start !important;
+  gap: 1rem;
+  .subIcCont {
+    width: 3rem;
+    height: 3rem;
+    border-radius: var(--globalRadius);
+    .mat-icon{
+      display: flex;
+      margin: auto !important;
+      font-size: 2rem;
+    }
+  }
+}
+.b{background: var(--msgBlue); .mat-icon{color: var(--msgBlueS) !important;}}
+.y{background: var(--msgYellow); .mat-icon{color: var(--msgYellowS) !important;}}
+.p{background: var(--msgPurple); .mat-icon{color: var(--msgPurpleS) !important;}}
+.o{background: var(--msgOrange); .mat-icon{color: var(--msgOrangeS) !important;}}
+.g{background: var(--msgGreen); .mat-icon{color: var(--msgGreenS) !important;}}
+.itemWhyUs:nth-child(1){grid-area: one}
+.itemWhyUs:nth-child(2){grid-area: two}
+.itemWhyUs:nth-child(3){grid-area: thr}
+.itemWhyUs:nth-child(4){grid-area: fou}
+.itemWhyUs:nth-child(5){grid-area: fiv}
+
+.whyUsImgCont{width: 35vw; padding: 5rem !important; box-sizing: border-box;}
+.whyUsDatCont{
+  padding: 2rem;
+  box-sizing: border-box;
+  width: 65vw;
+  display: grid;
+  gap: 2rem;
+  grid-template-areas:
+    "one one"
+    "two thr"
+    "fou fiv";
+}
+
+.whyUsCont{
+  width: 100vw;
+  padding: 1rem;
+  gap:5rem !important;
+  flex-wrap: nowrap;
+}
+
+@media (max-width: 760px) {
+  .routeTitleH5{
+    text-align: center;
+    font-size: 76px !important;
+    //div{
+    //  position: absolute;
+    //  top: 0;
+    //  left: 100%;
+    //  width: 200%;
+    //  height: 100%;
+    //  max-width: none;
+    //  background-image: linear-gradient(to right, transparent, var(--globalBg) 50%, var(--globalBg));
+    //}
+  }
+  .about_p{
+    width: 94% !important;
+    margin: 0 auto 5rem auto !important;
+    text-align: center;
+    color: var(--colorText) !important;
+  }
+  .whyUsImgCont{
+    width: 100vw !important; padding: 0 !important;
+    transform: scale(1.2);
+  }
+  .whyUsDatCont{
+    padding: 1rem;
+    width: 100vw;
+    grid-template-areas:
+    "one one"
+    "two thr"
+    "fou fiv";
+  }
+  .whyUsCont{
+    gap:5rem !important;
+    flex-wrap: wrap !important;
+  }
+}
+

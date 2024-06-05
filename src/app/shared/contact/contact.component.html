@@ -1,0 +1,111 @@
+<section class="centerFlexItems contactContMain" id="contactContMain">
+
+  <div class="centerFlexItems dataContact">
+    <mat-icon class="imgContact">forum</mat-icon>
+
+    <p class="contact_p">{{ "Contact.ann1"|translate }}</p>
+    <h2 class="contact_h2">{{ "Toolbar.letsStart"|translate }}</h2>
+    <p>{{ "Contact.desc"|translate }}</p>
+
+    <img class="globeContact" ngSrc="globe.webp" height="height" width="width"
+         sizes="(max-width: 400px) 100px, (max-width: 1200px) 300px, 750px"/>
+  </div>
+
+  <div class="form">
+    <form [formGroup]="formContact" class="formGroup">
+      <!-- user name -->
+      <mat-form-field class="formItem" appearance="fill">
+        <mat-label>{{ "Contact.nameLabel"|translate }}</mat-label>
+        <input
+          type="text"
+          matInput
+          formControlName="name"
+        />
+        @if (this.formContact.get('name')?.hasError('required')) {
+          <mat-error>{{ "Contact.required"|translate }}</mat-error>
+        }
+      </mat-form-field>
+      <!-- contact -->
+      <mat-form-field class="formItem" appearance="fill">
+        <mat-label>{{ "Contact.emailLabel"|translate }}</mat-label>
+        <input matInput type="text" formControlName="contact">
+        @if (this.formContact.get('contact')?.hasError('required')) {
+          <mat-error>{{ "Contact.required"|translate }}</mat-error>
+        }
+      </mat-form-field>
+      <!-- Selection -->
+      <div class="formItem selectionServicesCont">
+        <p>{{ "Contact.serviceLabel"|translate }}</p>
+        <mat-chip-listbox aria-label="service selection" formControlName="service" multiple>
+          <!--      <mat-chip-option>One fish</mat-chip-option>-->
+          <!--      <mat-chip-option>Two fish</mat-chip-option>-->
+          <!--      <mat-chip-option color="accent" selected>Accent fish</mat-chip-option>-->
+          <!--      <mat-chip-option color="warn">Warn fish</mat-chip-option>-->
+          @for (service of services; track service) {
+            <mat-chip-option>
+              {{ service.viewValue }}
+              <button matChipRemove>
+                <mat-icon>cancel</mat-icon>
+              </button>
+            </mat-chip-option>
+          }
+        </mat-chip-listbox>
+      </div>
+      <!-- WhatsApp Contact -->
+      <div class="formItem centerFlexItems spacerContact contactWhats">
+        <p class="form_p">{{ "Contact.whatsLabel"|translate }}</p>
+        <mat-checkbox formControlName="whatsapp"/>
+      </div>
+      <!-- Comments -->
+      <mat-form-field class="formItem ta" appearance="fill">
+      <textarea
+        class="textArea" matInput
+        placeholder="{{'Contact.commentsHint'|translate}}"
+        formControlName="comments"
+      ></textarea>
+      </mat-form-field>
+      <!-- Actions -->
+      <div class="formItem centerFlexItems btnCont">
+        @if (sending) {
+          <mat-spinner [strokeWidth]="2" [diameter]="25"/>
+        }
+        <button
+          class="blueButton"
+          mat-flat-button
+          aria-label="Send email for info"
+          [ngClass]="!enableSend ? 'opAction': ''"
+          [disabled]="!enableSend"
+          (click)="initSendEmail()"
+        >
+          <h2>{{ "Contact.btn"|translate }}</h2>
+        </button>
+      </div>
+    </form>
+
+    <!--    <div class="centerFlexItems notAvailableCont">-->
+    <!--      <div class="notAvailableInner">-->
+    <!--        <h2 class="gradientText2">{{"Contact.notAvailableDate"|translate}}</h2>-->
+    <!--        <p>{{"Contact.notAvailableDateDesc1"|translate}}<br/> {{"Contact.notAvailableDateDesc11"|translate}} <strong>{{nextTimeAvailable}}</strong> {{"Contact.notAvailableDateDesc2"|translate}}<br/></p>-->
+    <!--        <p>{{"Contact.notAvailableDateDesc3"|translate}}</p>-->
+    <!--        <div class="centerFlexItems actionsNotAvailable">-->
+    <!--          <button mat-button class="clearButton"-->
+    <!--                  (click)="updateFormData()"-->
+    <!--                  [ngClass]="creating ? 'opAction': ''"-->
+    <!--                  [disabled]="creating">-->
+    <!--            <h2>{{"Contact.changeDate"|translate}}</h2>-->
+    <!--          </button>-->
+
+    <!--          <button mat-button class="blueButton"-->
+    <!--                  [ngClass]="creating ? 'opAction': ''"-->
+    <!--                  [disabled]="creating"-->
+    <!--                  (click)="confirmMeeting()">-->
+    <!--            <h2>{{"HeaderMain.continue"|translate}}</h2>-->
+    <!--          </button>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--    </div>-->
+  </div>
+
+</section>
+
+

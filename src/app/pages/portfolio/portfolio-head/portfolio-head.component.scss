@@ -1,0 +1,31 @@
+.headerDataRoute {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.world {
+  position: absolute;
+  object-fit: contain;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) !important;
+  opacity: var(--opacityHead);
+  width: 100% !important;
+}
+
+.headerRouteDat {
+  width: 60vw !important;
+  margin: 0 auto !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header_h2_Route, .header_p_Route {
+  text-align: center !important
+}
+
+@media (max-width: 767px) {
+}

@@ -1,0 +1,62 @@
+.needItem:nth-child(1) {
+  grid-area: one
+}
+
+.needItem:nth-child(2) {
+  grid-area: two
+}
+
+.needItem:nth-child(3) {
+  grid-area: thr
+}
+
+.needItem:nth-child(4) {
+  grid-area: fou
+}
+
+.needItem {
+  max-width: 25rem;
+  margin: 0 auto;
+
+  h2, p {
+    text-align: center
+  }
+
+  .needs_img_cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .needs_img {
+      margin: 1rem auto !important
+    }
+  }
+}
+
+.needsCont {
+  width: 100vw;
+  margin: 5rem auto 10rem auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  grid-auto-rows: auto 1fr;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-areas:
+    "one two"
+    "thr fou";
+}
+
+@media(max-width: 767px) {
+
+  .needsCont {
+    width: 100vw;
+    margin: 5rem auto 10rem auto;
+    padding: .65rem;
+    gap: 1rem;
+    grid-template-areas:
+    "one"
+    "two"
+    "thr"
+    "fou";
+  }
+}

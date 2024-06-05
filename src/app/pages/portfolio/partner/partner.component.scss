@@ -1,0 +1,125 @@
+.partnerCont {
+  margin: 5rem auto 10rem auto !important
+}
+
+.partnerHead {
+  flex-direction: column !important;
+  gap: 1.5rem !important;
+
+  .partnerImg {
+    transform: scale(1.2);
+  }
+
+  h2 {
+    margin-top: 2rem !important;
+    font-size: 82px !important;
+    font-weight: 500 !important;
+  }
+
+  .descCont {
+    width: 60vw;
+    margin: 0 auto !important;
+  }
+}
+
+.portfolioTags {
+  flex-direction: row !important;
+  margin: 1.5rem auto !important;
+  gap: .25rem;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+  width: 60% !important;
+
+  .portfolioTag h2 {
+    color: var(--colorBW) !important
+  }
+
+  .portfolioTag p {
+    font-size: 12px !important
+  }
+}
+
+.featuresCont {
+  margin-top: 2.5rem !important
+}
+
+.featuresResume {
+  text-align: center !important;
+}
+
+.dateCont {
+  justify-content: flex-start !important;
+  gap: .5rem
+}
+
+.dateProject {
+  font-style: italic !important
+}
+
+.tagLanding {
+  background: var(--msgBlue);
+
+  p {
+    color: var(--msgBlueS) !important;
+    font-weight: 700 !important
+  }
+}
+
+.tagWebApp {
+  background: var(--msgOrange);
+
+  p {
+    color: var(--msgOrangeS) !important;
+    font-weight: 700 !important
+  }
+}
+
+.tagECommerce {
+  background: var(--msgPurple);
+
+  p {
+    color: var(--accent) !important;
+    font-weight: 700 !important
+  }
+}
+
+.tagSAAS {
+  background: var(--msgYellow);
+
+  p {
+    color: var(--msgYellowS) !important
+  }
+}
+
+@media(max-width: 767px) {
+
+  .partnerHead {
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+
+    h2 {
+      font-size: 36px !important;
+      text-align: center !important;
+    }
+
+    .descCont {
+      width: 92vw;
+    }
+  }
+
+  .partnerImg {
+    margin-top: 2.5rem !important;
+    transform: scale(1);
+    width: 60vw !important;
+  }
+
+  .portfolioTags {
+    margin: 1rem auto !important;
+    width: 96% !important;
+
+    .portfolioTag p {
+      font-size: 11px !important
+    }
+  }
+
+}

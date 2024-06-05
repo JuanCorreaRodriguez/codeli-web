@@ -1,0 +1,10 @@
+.approachCont{
+  position: relative;
+  height: max-content !important;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+.approachStrengths{margin: 0rem auto !important}
+@media(max-width: 767px){
+  .approachStrengths{margin: 1.5rem auto !important}
+}

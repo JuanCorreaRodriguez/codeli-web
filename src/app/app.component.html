@@ -1,0 +1,9 @@
+<div class="toolbarTrigger"></div>
+
+<div data-scroll-container class="mainContainer" id="mainContainer">
+  <router-outlet class="router"/>
+</div>
+
+@defer (on idle) {<app-main-toolbar/>}
+
+<div class="cursor-dot" id="data-cursor-dot"></div>

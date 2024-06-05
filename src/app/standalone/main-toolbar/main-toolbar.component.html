@@ -1,0 +1,134 @@
+<mat-toolbar class="toolbar">
+  <mat-toolbar-row>
+    <!-- Options-->
+    <div class="lanClass ">
+      <button mat-button class="lanClass" [matMenuTriggerFor]="menuOptions" aria-label="Codeli Studio Options Panel">
+        <mat-icon class="icToolbar">grid_view</mat-icon>
+      </button>
+    </div>
+    <!-- Options panel -->
+    <mat-menu class="servicesCont" #menuOptions>
+      <div class="mainServices">
+
+        <div class="service">
+          <p class="ann">Info</p>
+          <button mat-button class="" (click)="goTo('')">
+            <p>{{ "Toolbar.home"| translate }}</p>
+          </button>
+          <button mat-button class="" (click)="goTo('about-us')">
+            <p>{{ "Toolbar.about"| translate }}</p>
+          </button>
+          <button mat-button class="" (click)="goTo('approach-landing')">
+            <p>{{ "Toolbar.planning"| translate }}</p>
+          </button>
+          <button mat-button class="" (click)="goTo('portfolio')">
+            <p>{{ "Toolbar.portfolio" | translate }}</p>
+          </button>
+          <button mat-button class="" (click)="goTo('contact-us')">
+            <p>{{ "Toolbar.contact" | translate }}</p>
+          </button>
+        </div>
+
+        <mat-divider/>
+
+        <div class="service">
+          <p class="ann">{{ "Toolbar.services"|translate }}</p>
+          <button mat-button class="" (click)="goTo('web-development')">
+            <mat-icon>devices</mat-icon>
+            <p>{{ "Toolbar.dev_web"| translate }}</p>
+          </button>
+          <button mat-button class="" (click)="goTo('ui-ux')">
+            <mat-icon>palette</mat-icon>
+            <p>UI & UX</p>
+          </button>
+          <button mat-button class="" (click)="goTo('business-strategies')">
+            <mat-icon>tactic</mat-icon>
+            <p>{{ "Toolbar.strategy"| translate }}</p>
+          </button>
+          <!--          <button mat-button class="" (click)="goTo('google-workspace')">-->
+          <!--            <mat-icon>workspaces</mat-icon>-->
+          <!--            <p>Google Workspace</p>-->
+          <!--          </button>-->
+          <!--          <button mat-button class="" (click)="goTo('woi')">-->
+          <!--            <mat-icon>travel_explore</mat-icon>-->
+          <!--            <p>SEO</p>-->
+          <!--          </button>-->
+          <button mat-button class="" (click)="goTo('consulting')">
+            <mat-icon>query_stats</mat-icon>
+            <p>{{ "Toolbar.consulting"| translate }}</p>
+          </button>
+        </div>
+      </div>
+    </mat-menu>
+    <!-- Search -->
+    <div class="lanClass">
+      <form [formGroup]="searchForm" class="searchForm">
+        <mat-form-field appearance="fill">
+          <input class="iSearch"
+                 type="text"
+                 (focus)="focusAnim()"
+                 (focusout)="focusOut()"
+                 formControlName="search"
+                 matInput placeholder="Search">
+          <mat-icon class="icToolbar" matSuffix>search</mat-icon>
+
+        </mat-form-field>
+      </form>
+    </div>
+    <!-- Spacer-->
+    <span class="spacer"></span>
+    <!-- Language -->
+    <div class=" lanClass">
+      <button class="lanClass" mat-button [matMenuTriggerFor]="menuLanguage" aria-label="Nox46 Languages">
+        <mat-icon class="icToolbar">translate</mat-icon>
+      </button>
+      <mat-menu #menuLanguage>
+        <button value="es" mat-menu-item class="flex items-center gap-4 flex-nowrap" (click)="toggleLanguage('es')">
+          <p class="w-max">{{ "Toolbar.spanish" | translate }}</p>
+        </button>
+        <button value="en" mat-menu-item class="flex items-center gap-4 flex-nowrap" (click)="toggleLanguage('en')">
+          <p>{{ "Toolbar.english" | translate }}</p>
+        </button>
+      </mat-menu>
+    </div>
+    <!-- Theme -->
+    <div class=" lanClass">
+      @if (isDarkTheme) {
+        <button
+          mat-button
+          value="dark-theme"
+          style="color: var(--colorText) !important"
+          (click)="toggleTheme()"
+          aria-label="Codeli Theme"
+        >
+          <mat-icon class="icToolbar">dark_mode</mat-icon>
+        </button>
+      } @else {
+        <button
+          mat-button
+          value="light-theme"
+          style="color: var(--colorText) !important"
+          (click)="toggleTheme()"
+          aria-label="Create new event"
+        >
+          <mat-icon class="icToolbar">light_mode</mat-icon>
+        </button>
+      }
+    </div>
+    <!-- ContactUs -->
+    <button [routerLink]="'contact-us'" mat-button class="blueButton portfolio"
+            aria-label="'Toolbar.portfolio' | translate">
+      <p>{{ "Toolbar.letsStart"|translate }}</p>
+    </button>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+@defer (when links.length > 0) {
+  <app-search-options [links]="links"/>
+}
+
+@defer (on idle) {
+  <app-base/>
+}
+
+

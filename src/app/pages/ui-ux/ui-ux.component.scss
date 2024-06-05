@@ -1,0 +1,30 @@
+.innerFeaturesUI{background: var(--globalBg) !important;}
+.boxH2{
+  width: 100%;font: 800 32px/34px var(--globalTextFamily) !important;
+  span{font: 800 32px/34px var(--globalTextFamilyBold) !important;}
+}
+.boxP{margin-top: .5rem !important;}
+.wirefreaming{
+  min-height: 120vh;height: max-content;box-sizing: border-box;
+}
+.adventage{
+  box-sizing: border-box;
+  padding: 1rem .5rem !important;
+  max-width: calc(50vw - 4rem);
+  width: calc(50vw - 4rem);
+  img{width: auto;height: 80%;}
+}
+.adventage:nth-child(1){grid-area: one}
+.adventage:nth-child(2){grid-area: two}
+.adventage:nth-child(3){grid-area: thr}
+.adventage:nth-child(4){grid-area: fou}
+.adventage:nth-child(5){grid-area: fiv}
+.adventage:nth-child(6){grid-area: six}
+.adventages{
+  display: grid;gap: 1rem;
+  grid-template-areas:
+    "one two"
+    "thr fou"
+    "fiv six"
+;
+}

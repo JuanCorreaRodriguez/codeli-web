@@ -1,0 +1,71 @@
+.footerItem{
+  padding: 1rem;margin-bottom: .5rem !important;
+  box-sizing: border-box;height: 100%;min-height: 1vh;min-width: 5vw;
+  .footer_h2{font-size: 18px !important;font-weight: 500 !important;}
+  .footer_p{font-size: 12px !important;max-width: 100%; }
+}
+.A0BG{
+  position: absolute;top: 0;left: 0;z-index: -1;height: 100%;width: 100%;
+  background: var(--globalBox) !important;
+}
+
+.A0{
+  grid-area: one;position: relative;
+  border-radius: var(--globalRadius);max-width: 35vw;
+  button{margin-top: 1rem;}
+}
+.B0{grid-area: two}
+.C0{grid-area: thr}
+.D0{grid-area: fou}
+.E0{grid-area: fiv; text-align: center !important; font-size: 9px !important; padding: .25rem !important; height: 1rem !important}
+.footerCont{
+  width: 100vw;
+  min-height: 10vh;
+  display: grid;
+  padding: .5rem;
+  box-sizing: border-box;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+      "one one one two two thr thr fou fou"
+      "one one one two two thr thr fou fou"
+      "one one one two two thr thr fou fou"
+      "one one one two two thr thr fou fou"
+      "fiv fiv fiv fiv fiv fiv fiv fiv fiv";
+}
+.copy{font-size: 10px !important;}
+.footer_p{
+  font-size: 14px !important;
+  margin-top: .35rem !important;
+  transition: all 300ms ease;
+}
+.footer_p:hover{
+  transition: all 300ms ease;
+  cursor: pointer;
+  color: var(--primary) !important;
+}
+@media (max-width: 760px) {
+  .footerItem{
+    padding: 1rem;
+    min-height: 1vh;
+    min-width: 100%;
+    width: 100%;
+    .footer_h2{font-size: 16px !important;font-weight: 600 !important;}
+    .footer_p{font-size: 11px !important;max-width: 100%;}
+  }
+  .B0{grid-area: two;margin-top: 1rem}
+  .C0{grid-area: thr;margin-top: 1rem}
+  .D0{grid-area: fou;margin-top: 1rem}
+  .footerCont{
+    width: 100vw;
+    min-height: 10vh;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+        "one one one"
+        "one one one"
+        "two thr fou"
+        "two thr fou"
+        "fiv fiv fiv";
+  }
+  .copy{font-size: 8px !important;}
+}

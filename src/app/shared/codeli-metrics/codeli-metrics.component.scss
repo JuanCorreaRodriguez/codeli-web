@@ -1,0 +1,67 @@
+.codeliMetricCont {
+  width: 100vw;
+  flex-direction: column !important;
+  margin: 0 auto;
+}
+
+.annCont {
+  background: var(--msgBlue);
+  padding: .5rem 1rem !important;
+  border-radius: var(--globalRadius);
+
+  h1 {
+    font-size: 16px !important;
+    text-align: center;
+  }
+}
+
+.resumeCodeliMetrics {
+  width: 50vw;
+  margin: 2rem 0 auto;
+
+  h2, p {
+    text-align: center
+  }
+}
+
+.metricsCodeli {
+  width: 80vw;
+  min-height: 5rem;
+  margin: 3.5rem auto 0 auto;
+  background: var(--msgPurple);
+  border-radius: calc(var(--globalRadius) * 5);
+  box-shadow: 0 0 35px 8px var(--msgPurple);
+  box-sizing: border-box;
+  gap: 5rem;
+
+  h2, p {
+    text-align: center
+  }
+
+  h2 {
+    color: var(--msgPurpleS) !important;
+  }
+
+  p {
+    color: var(--colorBW) !important;
+    margin-top: .25rem !important;
+    margin-bottom: 0 !important
+  }
+}
+
+@media(max-width: 767px) {
+  .codeliMetricCont {
+    margin: 5rem auto 0 auto;
+  }
+  .metric {
+    max-width: 20vw !important
+  }
+  .metricsCodeli {
+    width: 98vw;
+    gap: 1rem;
+  }
+  .resumeCodeliMetrics {
+    width: 90vw;
+    margin: 1rem 0 auto;
+  }
+}

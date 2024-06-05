@@ -1,0 +1,82 @@
+.advantageItem {
+  width: 40vw;
+  max-width: 40vw;
+  min-width: 15rem;
+  margin: 2.5rem auto;
+}
+
+.advantageItem:nth-child(1) {
+  grid-area: one
+}
+
+.advantageItem:nth-child(2) {
+  grid-area: two
+}
+
+.advantageItem:nth-child(3) {
+  grid-area: thr
+}
+
+.advantageItem:nth-child(4) {
+  grid-area: fou
+}
+
+.advantageItem:nth-child(5) {
+  grid-area: fiv
+}
+
+.advantageItem:nth-child(6) {
+  grid-area: six
+}
+
+.advantageImgCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.25rem !important;
+
+  img {
+    border-radius: var(--globalRadius);
+  }
+}
+
+.advantagesCont {
+  width: 75vw;
+  padding: 1rem;
+  display: grid;
+  gap: .5rem;
+  grid-auto-columns: auto 1fr !important;
+  grid-auto-rows: auto 1fr !important;
+  margin: 5rem auto;
+  grid-template-areas:
+    "one two"
+    "thr fou"
+    "fiv six";
+}
+
+@media (max-width: 767px) {
+  .advantageItem {
+    min-width: 96%
+  }
+  .advantagesCont {
+    width: 94vw;
+    padding: .5rem;
+    margin: 2.5rem auto;
+    grid-template-areas:
+    "one"
+    "two"
+    "thr"
+    "fou"
+    "fiv"
+    "six";
+  }
+  .advantageImgCont {
+    margin-top: 1rem !important;
+    min-height: 25vh;
+
+    img {
+      border-radius: var(--globalRadius);
+      width: 50%;
+    }
+  }
+}

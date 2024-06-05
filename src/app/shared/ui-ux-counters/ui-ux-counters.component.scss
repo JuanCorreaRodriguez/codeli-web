@@ -1,0 +1,41 @@
+.countersCont{
+  position: relative;
+  max-width: 100vw;
+  margin: 1rem auto;
+  .counters{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10rem;
+    //border: 1px solid rgba(108, 47, 237, 1);
+    background: rgba(108, 47, 237, 0.2);
+    padding: 1rem !important;
+    box-sizing: border-box;
+    width: 90vw;
+    margin: 5rem auto;
+    gap: 3.5rem;
+    .counter{
+      width: calc((100% - 10vw) / 4);
+      max-width: calc((100% - 10vw) / 4);
+      h2, p{ text-align: center !important}
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  .countersCont{
+    margin: 2rem auto;
+    .counters{
+      width: 96vw;
+      margin: auto;
+      gap: .25rem;
+      .counter{
+        width: calc((96vw - 2rem) / 4);
+        max-width: calc((96vw - 2rem) / 4);
+        h2, p{ text-align: center !important; font-weight: 500 !important}
+        p{font-size: 10px !important; width: 98%}
+      }
+    }
+  }
+
+}

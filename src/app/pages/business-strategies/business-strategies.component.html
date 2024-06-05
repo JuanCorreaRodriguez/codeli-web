@@ -1,0 +1,40 @@
+<div class="businessStrategy">
+  @defer (on viewport) {
+    <app-main-header/>
+  } @placeholder {
+    <app-loader/>
+  }
+  @defer (on viewport) {
+    <app-strategy-introduce/>
+  } @placeholder {
+    <app-loader/>
+  }
+  <div class="strategyImg">
+    <img
+      ngSrc="phone_graph.webp"
+      sizes="100vw"
+      width="width"
+      height="height"
+      class="" alt=""/>
+  </div>
+  @defer (on viewport) {
+    <app-strategy-service/>
+  } @placeholder {
+    <app-loader/>
+  }
+  <section class="businessCounters">@defer (on viewport) {
+    <app-strategy-counters/>
+  } @placeholder {
+    <app-loader/>
+  }</section>
+  @defer (on viewport) {
+    <app-contact/>
+  } @placeholder {
+    <app-loader/>
+  }
+  @defer (on viewport) {
+    <app-footer/>
+  } @placeholder {
+    <app-loader/>
+  }
+</div>

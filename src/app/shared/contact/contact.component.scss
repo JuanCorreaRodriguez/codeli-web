@@ -1,0 +1,313 @@
+.contactContMain {
+  position: relative;
+  width: 100%;
+  max-width: 100vw;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: calc(50px + 1rem) auto 10rem;
+  flex-direction: row !important;
+  padding: 0 .5rem;
+  gap: .5rem;
+  justify-content: center !important;
+  align-items: flex-start !important;
+}
+
+.dataContact {
+  width: 45vw;
+  flex-direction: column !important;
+  justify-content: center !important;
+
+  p {
+    text-align: center;
+    width: 60%
+  }
+}
+
+.imgContact {
+  width: 100px !important;
+  height: 100px !important;
+  font-size: 100px !important;
+  color: var(--primary) !important;
+}
+
+.globeContact {
+  max-width: 15vw;
+  object-fit: contain;
+  margin-top: 1.5rem
+}
+
+.contact_p {
+  text-align: center !important;
+}
+
+.contact_h2 {
+  font-size: 32px !important;
+  text-align: start
+}
+
+.btnCont {
+  width: 100% !important;
+  flex-direction: row !important;
+  margin-top: 1rem;
+  gap: 1rem;
+  justify-content: flex-end !important;
+}
+
+.spacerContact {
+  flex: 1 1 auto !important
+}
+
+.formItem:nth-child(1) {
+  grid-area: one
+}
+
+.formItem:nth-child(2) {
+  grid-area: two
+}
+
+.formItem:nth-child(3) {
+  grid-area: thr
+}
+
+.formItem:nth-child(4) {
+  grid-area: fou
+}
+
+.formItem:nth-child(5) {
+  grid-area: fiv
+}
+
+.formItem:nth-child(6) {
+  grid-area: six
+}
+
+.form {
+  width: 55vw;
+  position: relative;
+  background: var(--globalBox);
+  border-radius: var(--globalRadius);
+  box-sizing: border-box;
+  padding: .65rem;
+}
+
+form {
+  width: 100%;
+  display: grid;
+  gap: .35rem;
+  column-gap: 1rem;
+  grid-template-areas:
+    "one one"
+    "two fou"
+    "thr thr"
+    "fiv fiv"
+    "six six";
+}
+
+.contactWhats {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  max-height: 3.25rem;
+
+  .form_p {
+    flex: 1 0 auto;
+  }
+
+  mat-checkbox {
+    flex: 0 1 10%;
+  }
+}
+
+.opAction {
+  opacity: .25;
+}
+
+/** CHIPS */
+::ng-deep .mat-mdc-standard-chip {
+  background: transparent !important;
+  border: 1px solid var(--colorIcons2);
+}
+
+::ng-deep .mdc-evolution-chip__text-label {
+  color: var(--colorBW) !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+}
+
+::ng-deep .mat-mdc-chip-set .mdc-evolution-chip-set__chips {
+  justify-content: flex-start !important;
+}
+
+::ng-deep .mdc-evolution-chip--selected .mdc-evolution-chip__checkmark {
+  color: forestgreen !important;
+}
+
+::ng-deep .mat-mdc-standard-chip.mdc-evolution-chip--with-primary-graphic .mdc-evolution-chip__action--primary {
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+}
+
+/** SELECT */
+::ng-deep .mdc-checkbox .mdc-checkbox__native-control:enabled:not(:checked):not(:indeterminate):not([data-indeterminate=true]) ~ .mdc-checkbox__background {
+  border-color: var(--colorIcons) !important;
+}
+
+::ng-deep .mat-mdc-select-panel {
+  border-radius: var(--globalRadius) !important;
+  background-color: var(--globalBg) !important;
+  background: var(--globalBg) !important;
+}
+
+::ng-deep .mat-mdc-option .mdc-list-item__primary-text {
+  font-size: 12px !important;
+}
+
+::ng-deep .mat-mdc-select-value {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+}
+
+.textArea::placeholder {
+  color: var(--colorIcons) !important;
+}
+
+.textArea {
+  height: 9rem !important;
+  min-height: 9rem !important
+}
+
+.ta {
+  height: 10rem !important;
+  min-height: 10rem !important;
+}
+
+
+/* Form field */
+.labelTextArea {
+  margin-top: .5rem !important;
+}
+
+:host ::ng-deep .mat-mdc-form-field {
+  width: 100% !important;
+  min-height: 3.25rem !important;;
+  background: transparent !important;
+}
+
+::ng-deep .mat-mdc-text-field {
+  min-height: 3em !important;
+  align-items: center !important;
+}
+
+::ng-deep .mat-mdc-text-field--filled {
+  min-height: 4em !important;
+  align-items: center !important;
+}
+
+::ng-deep .mat-mdc-text-field-wrapper {
+  padding-top: 0 !important;
+  background: var(--globalBg) !important;
+  border-radius: var(--globalRadius);
+  border: 1px solid var(--colorIcons2);
+}
+
+::ng-deep .mat-mdc-text-field-wrapper .mat-mdc-form-field-infix .mat-mdc-floating-label {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  font-family: var(--InterTight), sans-serif !important;
+}
+
+::ng-deep .mat-mdc-text-field-wrapper:not(.mdc-text-field--outlined) .mat-mdc-form-field-infix {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  font-family: var(--InterTight), sans-serif !important;
+}
+
+::ng-deep .mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-line-ripple::before {
+  border-bottom: none;
+}
+
+::ng-deep .mat-mdc-form-field-focus-overlay {
+  background-color: transparent !important;
+}
+
+::ng-deep .mat-mdc-form-field-hint {
+  font-size: 12px !important;
+  font-family: var(--InterTight), sans-serif !important;
+  font-weight: 400 !important;
+}
+
+.mdc-text-field__input {
+  margin-top: 0.85em !important;
+  font-size: 15px !important;
+  font-family: var(--InterTight), sans-serif !important;
+  font-weight: 400 !important;
+  color: var(--colorBW) !important;
+}
+
+:host ::ng-deep .mat-mdc-text-field-wrapper .mat-mdc-form-field-flex .mat-mdc-floating-label {
+  top: 1.35rem !important;
+  color: var(--colorBW) !important;
+}
+
+:host .mdc-text-field--filled .mdc-floating-label--float-above {
+  transform: translateY(-125%) scale(0.75) !important;
+}
+
+:host ::ng-deep .mat-mdc-form-field-error {
+  font-size: 12px !important;
+}
+
+.notAvailableCont {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  opacity: 0;
+  box-sizing: border-box !important;
+  padding: 1rem !important;
+}
+
+.actionsNotAvailable {
+  margin-top: 2.5rem !important;
+  flex-direction: row !important;
+  width: 100%;
+  gap: 1rem !important;
+  justify-content: flex-end !important;
+}
+
+@media (max-width: 760px) {
+  .contactContMain {
+    margin: 50px auto 2.5rem auto !important;
+    gap: 2.5rem;
+    flex-direction: column !important;
+    height: max-content !important;
+    min-height: max-content !important
+  }
+  .dataContact {
+    width: 94vw;
+
+    p {
+      text-align: center;
+      width: 94%
+    }
+  }
+  .globeContact {
+    max-width: 50vw;
+  }
+  .form {
+    width: 100%;
+    padding: .25rem;
+  }
+  form {
+    gap: .25rem;
+    grid-template-areas:
+    "one"
+    "two"
+    "fou"
+    "thr"
+    "fiv"
+    "six";
+  }
+}

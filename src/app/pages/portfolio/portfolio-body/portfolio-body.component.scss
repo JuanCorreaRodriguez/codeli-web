@@ -1,0 +1,134 @@
+.partnersCont {
+  width: 80vw;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 1rem;
+  margin: 5rem auto 10rem auto;
+  flex-wrap: wrap;
+
+  .cardFeature {
+    width: 30vw;
+    min-width: 30vw;
+    background: var(--cardPortfolio);
+    box-sizing: border-box;
+    border: 1px solid var(--cardPortfolioB);
+    min-height: 10rem;
+    border-radius: var(--globalRadius);
+    padding: 2.5rem .5rem !important;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+
+    .portfolioTags {
+      flex-direction: row !important;
+      margin-top: 1.5rem !important;
+      gap: .25rem;
+      justify-content: flex-start !important;
+      flex-wrap: wrap !important;
+
+      .portfolioTag h2 {
+        color: var(--colorBW) !important
+      }
+
+      .portfolioTag p {
+        font-size: 12px !important
+      }
+    }
+
+    .dataCard {
+      .cardTitle {
+        display: flex;
+        gap: .5rem;
+        flex-direction: row;
+
+        h4 {
+          width: max-content !important
+        }
+
+        h2 {
+          font-size: 16px !important;
+          color: var(--colorIcons) !important;
+        }
+
+        span {
+          color: var(--primary) !important;
+        }
+      }
+
+      p {
+        font-size: 13px !important;
+      }
+    }
+  }
+}
+
+.tagLanding {
+  background: var(--msgBlue);
+
+  p {
+    color: var(--msgBlueS) !important
+  }
+}
+
+.tagWebApp {
+  background: var(--msgOrange);
+
+  p {
+    color: var(--msgOrangeS) !important
+  }
+}
+
+.tagECommerce {
+  background: var(--msgPurple);
+
+  p {
+    color: var(--msgPurpleS) !important
+  }
+}
+
+.tagSAAS {
+  background: var(--msgYellow);
+
+  p {
+    color: var(--msgYellowS) !important
+  }
+}
+
+.title_01 {
+  color: #26C67E !important;
+}
+
+.tool {
+  transition: all 150ms ease-in-out;
+}
+
+//view-transition-name: partnerImg}
+.tool:hover {
+  transition: all 350ms ease-in-out;
+  transform: scale(1.05);
+}
+
+@media (max-width: 760px) {
+  .partnersCont {
+    width: 100vw !important;
+  }
+
+  .cardFeature {
+    width: 95vw !important;
+    min-width: 95vw !important;
+    padding: 1.5rem .5rem !important;
+    gap: .65rem;
+
+    .portfolioTags {
+      margin-top: 1rem !important;
+    }
+
+    .dataCard {
+
+      p {
+        font-size: 12px !important;
+      }
+    }
+  }
+}

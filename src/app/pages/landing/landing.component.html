@@ -1,0 +1,63 @@
+<section class="globalHeader ">
+  <img
+    priority
+    ngSrc="world.webp"
+
+    sizes="(max-width: 500px) 150px, 1200px"
+
+    width="width"
+    height="height"
+    decoding="sync"
+    class="world" alt=""/>
+
+  @defer (on viewport) {
+    <app-main-head/>
+  } @placeholder {
+    <app-loader/>
+  }
+</section>
+@defer (on viewport) {
+  <app-clients/>
+} @placeholder {
+  <app-loader/>
+}
+@defer (on viewport) {
+  <app-web-development/>
+} @placeholder {
+  <app-loader/>
+}
+@defer (on viewport) {
+  <app-codeli-metrics/>
+} @placeholder {
+  <app-loader/>
+}
+@defer (on viewport) {
+  <app-web-design/>
+} @placeholder {
+  <app-loader/>
+}
+@defer (on viewport) {
+  <app-features-grid/>
+} @placeholder {
+  <app-loader/>
+}
+@defer (on viewport) {
+  <app-transform-vision/>
+} @placeholder {
+  <app-loader/>
+}
+@defer (on viewport) {
+  <app-social-proof/>
+} @placeholder {
+  <app-loader/>
+}
+@defer (on viewport) {
+  <app-contact/>
+} @placeholder {
+  <app-loader/>
+}
+@defer (on viewport) {
+  <app-footer/>
+} @placeholder {
+  <app-loader/>
+}

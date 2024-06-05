@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Codeli Studio</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="./assets/img/Codeli.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@200" rel="stylesheet"/>
+  <style rel="preload" as="style">
+    @font-face {
+      font-display: swap;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      src: url('./assets/fonts/inter-v13-latin-500.woff2') format('woff2');
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 800;
+      src: url('./assets/fonts/inter-v13-latin-800.woff2') format('woff2');
+    }
+
+    :root {
+      --globalTextFamily: "Inter", sans-serif;
+      --globalRadius: 0.75rem;
+      --shadow: #181818e0;
+      --globalBgBlur: #f3f3f357;
+      --blueGradient: linear-gradient(to left, var(--primary), var(--accent)) !important;
+      --orangeGradient: linear-gradient(to left, var(--primary), var(--accent)) !important;
+      --msgOrange: rgba(255, 117, 39, 0.1);
+      --msgOrangeS: rgba(255, 117, 39, 1);
+      --msgPurple: rgba(162, 89, 255, 0.1);
+      --msgPurpleS: rgb(122, 17, 255);
+      --msgBlue: rgba(30, 108, 199, 0.1);
+      --msgBlueS: rgba(30, 108, 199, 1);
+      --msgYellow: rgba(255, 224, 20, 0.1);
+      --msgYellowS: rgb(234, 206, 0);
+      --msgGreen: rgba(27, 151, 33, 0.1);
+      --msgGreenS: rgb(0, 119, 6);
+      --cardBorder: rgba(244, 244, 245, 0.1);
+      --globalToolbarDARK: rgba(20, 23, 24, 0.6);
+      --globalToolbarLIGHT: rgba(240, 240, 240, 0.6);
+    }
+
+    .dark-theme {
+      --primary: #9575CD;
+      --accent: #673AB7;
+
+      --globalBg: #141718;
+      --globalBox: #232627;
+      --globalBoxBlur: rgba(35, 38, 39, 0.5);
+      --globalToolbar: rgba(20, 23, 24, 0.6);
+      --globalField: #272727;
+      --globalField2: rgba(39, 39, 39, 0.4);
+      /*--colorIcons: #6C7275;*/
+      --colorIcons: #636363;
+      --colorIcons2: #2b2b2b;
+      --colorText: #d3d3d3;
+      --colorP: #848484;
+      --shadow: rgba(0, 0, 0, 0.91);
+      --globalBgBlur: rgba(20, 23, 24, 0.55);
+      --mainBackground: #303030;
+
+      --globalBgBlurLine: #2b2b2ba6;
+      --colorThumbHover: #838383;
+      --colorThumb: #3f3f3f;
+      --colorBW: #f8f8f8;
+
+      --blueBox: #1B1F33;
+      --blueBoxBorder: #2d3456;
+
+      --opacityFloor: .5;
+      --opacityHead: .99;
+      --opacityNums: .45;
+
+      --cardPortfolio: rgba(24, 24, 27, 0.5);
+      --cardPortfolioB: rgba(147, 147, 147, 0.1);
+
+      --cardBody: rgba(24, 24, 27, 0.5);
+
+    }
+
+    .light-theme {
+      --primary: #9575CD;
+      --accent: #673AB7;
+
+      --globalBg: #f0f0f0;
+      --globalBox: #ffffff;
+      --globalBoxBlur: rgba(255, 255, 255, 0.5);
+      --globalToolbar: rgba(240, 240, 240, 0.6);
+      --globalField: #e3e3e3;
+      --globalField2: rgba(227, 227, 227, 0.4);
+      /*--colorIcons: #505050;*/
+      --colorIcons: #a1a1a1;
+      --colorIcons2: #e5e5e5;
+      --colorText: #222223;
+      --colorP: #818181;
+      --shadow: #8a8a8a6b;
+      --globalBgBlur: rgba(240, 240, 240, 0.5);
+      --mainBackground: #ffffff;
+
+      --globalBgBlurLine: #f3f3f349;
+      --colorThumbHover: #a8a8a8;
+      --colorThumb: #c4c4c4;
+      --colorBW: #141718;
+
+      --blueBox: rgba(133, 150, 245, 0.85);
+      --blueBoxBorder: rgba(103, 118, 197, 0.65);
+
+      --opacityFloor: .15;
+      --opacityHead: .55;
+      --opacityNums: .75;
+
+      --cardPortfolio: #ffffff;
+      --cardPortfolioB: rgba(110, 110, 110, 0.2);
+
+      --cardBody: rgba(24, 24, 27, 0.25);
+    }
+
+    html, body {
+      overflow-x: hidden;
+    }
+
+    body {
+      background: var(--globalBg);
+    }
+
+    html.lenis, html.lenis body {
+      height: auto;
+      margin: 0;
+      font-family: var(--globalTextFamily) !important;
+    }
+
+    /*.lenis.lenis-smooth {scroll-behavior: auto !important;}*/
+    .lenis.lenis-smooth [data-lenis-prevent] {
+      overscroll-behavior: contain;
+    }
+
+    .lenis.lenis-scrolling iframe {
+      pointer-events: none;
+    }
+
+    ::-webkit-scrollbar {
+      width: 3px;
+      height: 3px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: var(--globalBg) !important;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: var(--colorIcons) !important;
+      border-radius: 10px !important;
+      margin-right: 2px !important;
+      transition: ease-in-out 0.5s;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--colorThumbHover);
+      transition: ease-in-out 0.5s;
+    }
+
+    h1, h2, h3, h4, h5, p, label, span, h6 {
+      margin: 0 !important;
+      padding: 0 !important;
+      letter-spacing: 0 !important;
+      font-weight: 700;
+      font-family: var(--globalTextFamily), sans-serif !important;
+      color: var(--colorText);
+    }
+
+    p {
+      color: var(--colorP) !important;
+      font-weight: 500;
+      font-size: 13px !important;
+      margin-top: .65rem !important;
+      margin-bottom: .65rem !important
+    }
+
+    .gBox {
+      background-color: var(--globalBox) !important;
+      box-shadow: 0 0 8px var(--shadow) !important;
+      backdrop-filter: blur(36px);
+      padding: 1em;
+      border: 0 solid transparent;
+      border-radius: var(--globalRadius);
+      z-index: 9;
+    }
+
+    .gBoxBlur {
+      background-color: var(--globalBoxBlur);
+      backdrop-filter: blur(36px);
+      padding: 1em;
+      border-radius: var(--globalRadius);
+      z-index: 9;
+    }
+
+    .gradientText {
+      background: linear-gradient(to right, #1E6CC7, #8B63FF);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .gradientText3 {
+      background: linear-gradient(to right bottom, #FFA775, #F553E5, #5295FA);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-size: contain
+    }
+
+    .gradientText2 {
+      background: linear-gradient(to left, #FC4A1A, #F7B733);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .gradientText4 {
+      background: linear-gradient(to left, var(--colorIcons), var(--colorBW), var(--colorIcons));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .gradientText42 {
+      background: linear-gradient(to bottom, var(--colorP), var(--globalField2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    @media (max-width: 760px) {
+      p {
+        font-size: 11px
+      }
+    }
+  </style>
+  <link rel="manifest" href="manifest.webmanifest">
+  <!--  <meta name="theme-color" content="#1976d2">-->
+  <link rel="preconnect" fetchpriority="high" as="image" href="./assets/img/380/world.webp" type="image/webp">
+  <link rel="preconnect" fetchpriority="high" as="image" href="./assets/img/640/world.webp" type="image/webp">
+  <link rel="preconnect" fetchpriority="high" as="image" href="./assets/img/1200/world.webp" type="image/webp">
+  <!--  <link rel="preconnect" fetchpriority="high" as="image" href="./assets/img/world_800.webp" type="image/webp">-->
+  <!--  <link rel="preconnect" fetchpriority="high" as="image" href="./assets/img/world_1600.webp" type="image/webp">-->
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#1976d2">
+</head>
+<body>
+<app-root></app-root>
+<noscript>Please enable JavaScript to continue using this application.</noscript>
+</body>
+</html>

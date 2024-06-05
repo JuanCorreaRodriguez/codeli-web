@@ -1,0 +1,13 @@
+<div class="searchOptions" #searchPanel>
+
+  @for (link of links(); track link.title) {
+    <div class="itemCont" (click)="goto(link)">
+      <h4 class="itemName">{{ link.title }}</h4>
+      <p class="itemDesc">{{ link.desc }}</p>
+      <div class="bottomItem">
+        <mat-icon>open_in_new</mat-icon>
+      </div>
+    </div>
+  }
+
+</div>

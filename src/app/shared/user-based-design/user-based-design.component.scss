@@ -1,0 +1,25 @@
+.ubdCont {
+  width: 75vw;
+  margin: 5rem auto;
+  flex-direction: column;
+}
+
+.ubdImgCont {
+  width: 100%;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.ubdImg {
+  margin: 1.5rem auto 0 auto !important;
+}
+
+@media(max-width: 767px) {
+  .ubdCont {
+    width: 94vw;
+  }
+  .ubdImg {
+    margin: 2.5rem auto 0 auto !important;
+  }
+}

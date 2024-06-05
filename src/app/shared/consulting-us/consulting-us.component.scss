@@ -1,0 +1,63 @@
+.__consultingUSCont {
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+}
+
+._meeting {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  opacity: .85;
+  object-fit: cover;
+  border-radius: calc(var(--globalRadius) * 8);
+  mask-image: linear-gradient(transparent, transparent, rgb(0, 0, 0), rgb(0, 0, 0));
+}
+
+.dataConsultingUs {
+  width: 80%;
+  margin: 0 auto !important;
+  box-sizing: border-box;
+
+  h2, p {
+    text-align: center !important;
+  }
+
+  h2 {
+    font-size: 3rem !important;
+  }
+}
+
+.consultingUsReasons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: .5rem;
+  flex-direction: row;
+
+  p {
+    text-align: start !important;
+    color: var(--colorBW) !important;
+  }
+}
+
+@media(max-width: 767px) {
+  .consultingUsReasons {
+    flex-direction: column;
+  }
+
+  .dataConsultingUs {
+    width: 96%;
+
+    h2 {
+      font-size: 2rem !important;
+    }
+  }
+  .reasonListA, .reasonListB {
+    margin: 0 !important;
+    padding-inline-start: 30px !important
+  }
+}

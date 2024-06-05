@@ -1,0 +1,26 @@
+.globalHeader {
+  position: relative;
+  height: max-content;
+  max-width: 100vw;
+  width: 100vw;
+  min-width: 100vw;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+.world {
+  position: absolute;
+  object-fit: contain;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) !important;
+  opacity: var(--opacityHead);
+  width: 100% !important;
+}
+
+@media (max-width: 760px) {
+  .world {
+    top: 15% !important;
+
+  }
+}

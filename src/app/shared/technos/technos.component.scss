@@ -1,0 +1,154 @@
+.technosCont {
+  margin: 5rem auto;
+  width: 94vw;
+  max-width: 94vw;
+  box-sizing: border-box;
+  position: relative;
+  height: max-content;
+
+  h2 {
+    text-align: center !important;
+    font: 600 32px/38px var(--globalTextFamily) !important;
+  }
+
+  .techImg {
+    margin: 5rem auto !important;
+    justify-content: center;
+    display: flex;
+  }
+
+  //  .tech{
+  //    padding: 1rem;
+  //    box-sizing: border-box;
+  //    height: 100%;
+  //    min-height: 2.5vh;
+  //    min-width: 3rem;
+  //    display: flex;
+  //    justify-content: center;
+  //    align-items: center;
+  //    img{
+  //      width: 3.5rem;
+  //      height: 3.5rem;
+  //      object-fit: contain;
+  //      transform: scale(.9);
+  //    }
+  //  }
+  //  .tech:nth-child(1){grid-area: one}
+  //  .tech:nth-child(2){grid-area: two; img {transform: scale(1.5)}}
+  //  .tech:nth-child(3){grid-area: thr}
+  //  .tech:nth-child(4){grid-area: fou}
+  //  .tech:nth-child(5){grid-area: fiv}
+  //  .tech:nth-child(6){grid-area: six; img {transform: scale(1.5)}}
+  //  .tech:nth-child(7){grid-area: sev}
+  //  .tech:nth-child(8){grid-area: eig}
+  //  .tech:nth-child(9){grid-area: nin}
+  //  .tech:nth-child(10){grid-area: ten}
+  //  .tech:nth-child(11){grid-area: ele}
+  //  .tech:nth-child(12){grid-area: twe}
+  //  .tech:nth-child(13){grid-area: thn}
+  //  //.tech:nth-child(14){grid-area: emp; img{ display: none}}
+  //  .techGrid{
+  //    width: 92vw;
+  //    gap:.5rem;
+  //    margin:2rem auto;
+  //    display: grid;
+  //    //grid-template-rows: auto 1fr;
+  //    grid-template-areas:
+  //      "one one two two two two two two two two thr thr .   .   .   .   .   .   .   .   .   .   .   .  "
+  //      "one one two two two two two two two two thr thr .   .   .   .   .   .   .   .   .   .   .   .  "
+  //      "one one two two two two two two two two thr thr .   .   .   .   .   .   .   .   .   .   .   .  "
+  //      "one one two two two two two two two two thr thr .   .   .   .   .   .   .   .   .   .   .   .  "
+  //      ".   .   two two two two two two two two fou fou fiv fiv six six six six six six six six sev sev"
+  //      ".   .   two two two two two two two two fou fou fiv fiv six six six six six six six six sev sev"
+  //      ".   .   two two two two two two two two fou fou fiv fiv six six six six six six six six sev sev"
+  //      ".   .   two two two two two two two two fou fou fiv fiv six six six six six six six six sev sev"
+  //      ".   .   .   .   .   .   .   .   eig eig nin nin ten ten six six six six six six six six .   .  "
+  //      ".   .   .   .   .   .   .   .   eig eig nin nin ten ten six six six six six six six six .   .  "
+  //      ".   .   .   .   .   .   .   .   eig eig nin nin ten ten six six six six six six six six .   .  "
+  //      ".   .   .   .   .   .   .   .   eig eig nin nin ten ten six six six six six six six six .   .  "
+  //      ".   .   .   .   .   .   .   .   .   .   ele ele twe twe thn thn .   .   .   .   .   .   .   .  "
+  //      ".   .   .   .   .   .   .   .   .   .   ele ele twe twe thn thn .   .   .   .   .   .   .   .  "
+  //      ".   .   .   .   .   .   .   .   .   .   ele ele twe twe thn thn .   .   .   .   .   .   .   .  "
+  //      ".   .   .   .   .   .   .   .   .   .   ele ele twe twe thn thn .   .   .   .   .   .   .   .  "
+  //  ;
+  //  }
+}
+
+.msh_01 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35rem;
+  height: 35rem;
+}
+
+.msh_02 {
+  position: absolute;
+  top: -3rem;
+  left: 15rem;
+  width: 35rem;
+  height: 35rem;
+}
+
+//"one one two two two two thr thr .   .   .   .   .   .   .   ."
+//"one one two two two two thr thr .   .   .   .   .   .   .   ."
+//".   .   two two two two fou fou fiv fiv six six six six sev sev"
+//".   .   two two two two fou fou fiv fiv six six six six sev sev"
+//".   .   .   .   eig eig nin nin ten ten six six six six .   ."
+//".   .   .   .   eig eig nin nin ten ten six six six six .   ."
+//".   .   .   .   .   .   ele ele twe twe thn thn .   .   .   ."
+//".   .   .   .   .   .   ele ele twe twe thn thn .   .   .   ."
+@media (max-width: 640px) {
+  .technosCont {
+    h2 {
+      text-align: center !important;
+      font: 600 28px/32px var(--globalTextFamily) !important;
+    }
+
+    .tech {
+      padding: .5rem;
+      min-height: 5.5rem;
+      min-width: 2rem;
+
+      img {
+        width: 3rem;
+        height: 3rem;
+        object-fit: contain;
+        transform: scale(.9);
+      }
+    }
+
+    //.techGrid {
+    //  gap: .5rem;
+    //  margin: 3.5rem auto;
+    //  display: grid;
+    //  grid-template-areas:
+    //  ".   .   one one .   .   .   .   "
+    //  ".   .   one one .   .   .   .   "
+    //  "two two two two thr thr .   .   "
+    //  "two two two two thr thr .   .   "
+    //  "two two two two ten ten sev sev "
+    //  "two two two two ten ten sev sev "
+    //  "nin nin fiv fiv six six six six "
+    //  "nin nin fiv fiv six six six six "
+    //  "fou fou fou fou six six six six "
+    //  "fou fou fou fou six six six six "
+    //  "fou fou fou fou twe twe eig eig "
+    //  "fou fou fou fou twe twe eig eig "
+    //  ".   .   thn thn ele ele .   .   "
+    //  ".   .   thn thn ele ele .   .   ";
+    //}
+  }
+  .msh_01 {
+    top: 25rem;
+    left: -2rem;
+    width: 25rem;
+    height: 25rem;
+  }
+  .msh_02 {
+    top: 10rem;
+    left: 8rem;
+    width: 25rem;
+    height: 25rem;
+  }
+}

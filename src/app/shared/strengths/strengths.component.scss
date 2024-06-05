@@ -1,0 +1,81 @@
+.strength {
+  width: max-content;
+  max-width: 15rem;
+  min-width: 15rem;
+  gap: 1rem;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+
+  img {
+    width: 2rem;
+    height: 2rem;
+    gap: 1.5rem;
+    object-fit: contain;
+  }
+
+  p, h2 {
+    text-align: center;
+  }
+}
+
+.strength:nth-child(1) {
+  grid-area: one
+}
+
+.strength:nth-child(2) {
+  grid-area: two
+}
+
+.strength:nth-child(3) {
+  grid-area: thr
+}
+
+.strength:nth-child(4) {
+  grid-area: fou
+}
+
+.strength:nth-child(5) {
+  grid-area: fiv
+}
+
+.strengthMain {
+  position: relative;
+  width: 100vw;
+  max-width: 100vw;
+  padding: 1rem;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2.5rem;
+  box-sizing: border-box;
+  grid-auto-rows: auto 1fr;
+  display: grid;
+  grid-template-areas:
+    "one one two two thr thr"
+    ".   fou fou fiv fiv .";
+}
+
+@media(max-width: 767px) {
+  .strength {
+    width: 96%;
+    min-width: 96%;
+    max-width: 96%;
+    gap: .5rem;
+    margin: 0 auto;
+
+    img {
+      width: 3rem;
+      height: 3rem;
+      gap: .5rem;
+    }
+  }
+  .strengthMain {
+    padding: .5rem;
+    gap: 1rem;
+    grid-template-areas:
+    "one"
+    "two"
+    "thr"
+    "fou"
+    "fiv";
+  }
+}

@@ -1,0 +1,36 @@
+.contClients {
+  width: 100vw;
+  margin: 0 auto 5rem auto;
+
+  .clientsIcs {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin: 2.5rem auto;
+
+    .logosImgs {
+      object-fit: contain;
+    }
+  }
+
+  .clients_h2 {
+    text-align: center;
+    width: 100%;
+    position: relative;
+  }
+}
+
+.wsTitle, .wsDesc {
+  text-align: center !important;
+}
+
+@media (max-width: 760px) {
+  .contClients .clientsIcs {
+    gap: 1.5rem;
+
+  }
+}

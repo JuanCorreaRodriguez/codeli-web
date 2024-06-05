@@ -1,0 +1,116 @@
+.approachCardsCont {
+  width: 100vw;
+  gap: 3.5rem;
+  padding: 0 1.5rem;
+  box-sizing: border-box;
+  margin: 10rem auto 0 auto;
+}
+
+.approachCard {
+  max-width: 20rem;
+  width: 20rem;
+  flex-direction: column !important;
+
+  img {
+    width: 100%;
+    max-height: 15rem;
+    object-fit: contain;
+  }
+}
+
+.innerApproachCard {;
+  flex-direction: column !important;
+  gap: .5rem;
+
+  h3, h2 {
+    color: var(--colorIcons) !important;
+    text-align: center !important
+  }
+
+  .nums {
+    font-weight: 500 !important;
+    font-size: 52px !important;
+  }
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  min-height: 3rem !important;
+}
+
+.approachAnnotation {
+  min-width: 10rem;
+  text-align: center;
+  margin: 1rem auto !important;
+  padding: .25rem 0 !important;
+}
+
+.ann_cont1 {
+  background: var(--msgOrange);
+  color: var(--msgOrangeS) !important
+}
+
+.ann_cont2 {
+  background: var(--msgBlue);
+  color: var(--msgBlueS) !important
+}
+
+.ann_cont3 {
+  background: var(--msgYellow);
+  color: var(--msgYellowS) !important
+}
+
+.approach_h2 {
+  font-weight: 500 !important;
+  width: 80% !important;
+  margin: 0 auto !important;
+  color: var(--colorBW) !important;
+}
+
+@media (max-width: 760px) {
+  .approachCardsCont {
+    flex-direction: column !important;
+    width: 100%;
+    gap: 2.5rem;
+    padding: 0 .25rem;
+    margin: 5rem auto 0 auto;
+  }
+  .approachCard {
+    max-width: 100%;
+    width: 100%;
+    flex-direction: row !important;
+
+    img {
+      width: 5rem;
+      max-height: 5rem;
+    }
+  }
+  .cardHeader {
+    flex-direction: row;
+  }
+  .innerApproachCard {;
+    flex-direction: column !important;
+    gap: .5rem;
+
+    h3, h2 {
+      text-align: start !important;
+      width: 90%;
+      margin-left: 0 !important;
+    }
+
+    .nums {
+      display: none !important;
+
+    }
+  }
+  .approachAnnotation {
+    min-width: max-content;
+    text-align: start;
+    margin: 1rem auto 1rem 0 !important;
+    padding: .25rem 1.5rem !important;
+  }
+}

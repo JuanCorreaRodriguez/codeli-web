@@ -1,0 +1,118 @@
+.visionCont {
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 1rem !important;
+  position: relative;
+  margin: 5rem auto 0 auto !important;
+}
+
+.vTransformImg {
+  position: absolute;
+  top: 0;
+  right: 10rem;
+  z-index: 9;
+}
+
+.vData {
+  width: 60vw;
+  margin: 10rem auto;
+  background: var(--globalField);
+  border-radius: calc(var(--globalRadius) * 3);
+  padding: .15rem;
+  box-sizing: border-box;
+}
+
+.vDataHeader {
+  width: max-content;
+  justify-content: start !important;
+  flex-direction: column;
+  gap: .5rem;
+  margin-left: -5rem;
+
+  .ann_cont2 {
+    background: var(--msgBlue);
+    color: var(--msgBlueS) !important;
+    padding: .5rem !important
+  }
+
+  p {
+    text-align: start !important;
+    margin: 0 auto .25rem 0 !important;
+  }
+
+  button {
+    margin: .5rem auto 0 0 !important
+  }
+}
+
+.vDataItem:nth-child(1) {
+  grid-area: one
+}
+
+.vDataItem:nth-child(2) {
+  grid-area: two
+}
+
+.vDataItem:nth-child(3) {
+  grid-area: thr
+}
+
+.vDataItem:nth-child(4) {
+  grid-area: fou
+}
+
+.vDataItem {
+  width: calc(100% - 2rem);
+
+  .mat-icon {
+    font-size: 32px !important;
+    width: 36px;
+    height: 36px;
+  }
+}
+
+.vDataGrid {
+  background: var(--globalBg);
+  border-radius: calc(var(--globalRadius) * 3);
+  padding: 1rem;
+  margin-top: 1.5rem;
+  box-sizing: border-box;
+  grid-auto-rows: auto 1fr;
+  gap: 2rem;
+  display: grid;
+  grid-template-areas:
+    "one two"
+    "thr fou";
+}
+
+@media (max-width: 767px) {
+  .visionCont {
+    margin: 5rem auto !important;
+  }
+  .vTransformImg {
+    top: 1.5rem;
+    right: 0;
+  }
+  .vData {
+    width: 80vw;
+    margin: 5rem auto;
+    padding: .15rem;
+  }
+  .vDataHeader {
+    gap: .5rem;
+    margin-left: -2rem;
+  }
+  .vDataItem {
+    width: calc(100% - 1rem);
+  }
+  .vDataGrid {
+    padding: 1.5rem;
+    margin-top: 1rem;
+    gap: 1rem;
+    grid-template-areas:
+    "one"
+    "two"
+    "thr"
+    "fou";
+  }
+}

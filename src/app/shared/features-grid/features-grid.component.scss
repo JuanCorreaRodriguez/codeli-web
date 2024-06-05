@@ -1,0 +1,107 @@
+.contCodePartner {
+  width: 100vw;
+  height: max-content;
+  padding: 1rem 0 0 0 !important;
+}
+
+.featuresTitle {
+  margin: 5rem auto 2.5rem auto !important;
+  color: var(--colorIcons) !important;
+  text-align: center !important;
+  font-size: 32px !important;
+}
+
+.featuresDesc {
+  text-align: center !important;
+  width: 60%;
+  margin: .5rem auto !important
+}
+
+.cardsFeatures {
+  width: 100vw;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 1rem;
+  margin: 5rem auto;
+
+  .cardFeature {
+    width: 30vw;
+    min-width: 30vw;
+    background: var(--cardBody);
+    border: 1px solid var(--cardBorder);
+    min-height: 10rem;
+    border-radius: var(--globalRadius);
+
+    .tool {
+      width: 100%;
+      min-width: 100%;
+    }
+
+    .dataCard {
+      padding: .5rem !important;
+
+      h2 {
+        font-size: 16px !important;
+        color: var(--colorIcons) !important;
+      }
+
+      .cardTitle {
+        display: flex;
+        gap: .5rem;
+        flex-direction: row;
+
+        h4 {
+          width: max-content !important
+        }
+
+        span {
+          color: var(--primary) !important;
+        }
+      }
+
+      p {
+        font-size: 13px !important;
+      }
+    }
+  }
+}
+
+.mt1 {
+  margin-top: 1rem !important
+}
+
+@media (max-width: 760px) {
+  .contCodePartner {
+    width: 100%;
+    padding: 5rem 0 0 0 !important;
+  }
+  .cardsFeatures {
+    width: 100%;
+    flex-direction: column;
+    margin: 2.5rem auto 0 auto !important;
+
+    .cardFeature {
+      width: 98%;
+      margin: 0 auto;
+      min-height: 10rem;
+    }
+  }
+  .dataCard {
+    padding: .25rem !important;
+
+    h2 {
+      font-size: 16px !important;
+      margin: 5rem auto 0 auto !important;
+    }
+  }
+  .featuresTitle {
+    margin: 5rem auto 1.5rem auto !important;
+    font-size: 24px !important;
+  }
+
+  .featuresDesc {
+    width: 92%;
+    margin: .25rem auto !important
+  }
+}

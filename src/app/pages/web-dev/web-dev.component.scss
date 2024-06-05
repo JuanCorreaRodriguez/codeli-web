@@ -1,0 +1,55 @@
+.webDevCont{width: 100vw;position: relative;}
+.rAdjustRight{padding-left: 30% !important;}
+.service_title{
+  line-height: 28px !important;font-size: 24px !important;font-weight: 800 !important;
+}
+.web_dev_h2{
+  width: 100%;max-width: 100%;
+  font: 800 84px/88px var(--globalTextFamilyBold) !important;
+  margin: 0 auto !important;
+}
+.web_dev_p{width: 50% !important;color: var(--colorText) !important;}
+.innerFeatures{ p{margin-top: .5rem !important;} }
+.landingPages{
+  height: max-content !important;min-height: 100vh !important;
+  h2{font: 800 48px/52px var(--globalTextFamilyBold) !important}
+}
+.mainImg{
+    position: relative !important;
+    min-width: 100% !important;
+    width: 100% !important;
+    min-height: 100% !important;
+    height: 100% !important;
+    object-fit: contain;
+}
+.landingPagesImgs{
+  border-radius: var(--globalRadius);min-height: 50vh !important;height: 50vh !important;
+  h2{font: 600 32px/38px var(--globalTextFamily) !important;}
+}
+.innerLandingPagesImgs{
+  //bottom: 0 !important;
+  //left: -50% !important;
+}
+.headerSec{
+  h2{
+    width: 75% !important; font: 800 36px/39px var(--globalTextFamily) !important;
+    span{font: 800 36px/39px var(--globalTextFamilyBold) !important;}
+  }
+}
+.green{color: #009D48}
+.yellow{color: #FFC700}
+.blue{color: #93BEF1}
+.purple{color: #CF6FFD}
+.aqua{color: #1AD2CE}
+.purple2{color: #A21AD2}
+
+@media (max-width: 760px) {
+  .web_dev_h2{
+    font: 800 44px/48px var(--globalTextFamilyBold) !important;
+    width: 90%;
+    margin: 0 auto !important;
+  }}
+.web_dev_p{
+  margin-top: 1rem !important;
+  width: 90% !important;
+}

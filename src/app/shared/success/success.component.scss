@@ -1,0 +1,120 @@
+.successCont {
+  width: 100vw;
+  position: relative;
+  margin: 10rem auto !important;
+}
+
+.successHeader {
+  width: 50%;
+  margin: 2.5rem auto 0 auto !important;
+}
+
+.success_main_p {
+  margin: 0 auto !important;
+  font-weight: 700 !important;
+  text-align: center !important
+}
+
+.success_main_h3 {
+  text-align: center !important;
+  margin: 0 auto !important;
+  font: 800 32px/36px var(--globalTextFamily) !important;
+
+  span {
+    font: 800 32px/36px var(--globalTextFamilyBold) !important;
+  }
+}
+
+.successGridItem {
+  width: 20rem;
+  min-width: 15rem;
+  max-width: 20rem;
+  margin: 0 auto !important;
+}
+
+.scImg {
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+  object-fit: contain;
+}
+
+.successGridHeader {
+  flex-direction: row !important;
+  gap: 1rem !important;
+  justify-content: flex-start !important
+}
+
+.successGridItem:nth-child(1) {
+  grid-area: one
+}
+
+.successGridItem:nth-child(2) {
+  grid-area: two
+}
+
+.successGridItem:nth-child(3) {
+  grid-area: thr
+}
+
+.successGridItem:nth-child(4) {
+  grid-area: fou
+}
+
+.successGridItem:nth-child(5) {
+  grid-area: fiv
+}
+
+.successGrid {
+  margin: 5rem auto;
+  width: 100vw;
+  padding: .5rem;
+  box-sizing: border-box;
+  grid-auto-rows: auto 1fr;
+  display: grid;
+  row-gap: 1.5rem;
+  column-gap: .5rem;
+  grid-template-areas:
+    "one one two two thr thr"
+    ". fou fou fiv fiv .";
+}
+
+.success_h3 {
+  font-size: 32px !important;
+  line-height: 32px !important;
+  margin-top: 1rem !important;
+  text-align: center;
+}
+
+.success_p {
+  margin-top: .5rem !important;
+}
+
+.boxTransparent {
+  background: linear-gradient(to bottom, var(--globalBox), transparent);
+  border-radius: var(--globalRadius);
+}
+
+@media(max-width: 767px) {
+  .successHeader {
+    width: 94%;
+  }
+  .success_main_p {
+    width: 100%;
+  }
+  .successGridItem {
+    width: 94vw;
+    max-width: 94vw;
+  }
+  .successGrid {
+    margin: 5rem auto;
+    padding: .5rem;
+    row-gap: 1rem;
+    grid-template-areas:
+      "one"
+      "two"
+      "thr"
+      "fou"
+      "fiv"
+      "fiv";
+  }
+}

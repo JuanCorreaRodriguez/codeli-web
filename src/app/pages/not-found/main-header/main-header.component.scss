@@ -1,0 +1,17 @@
+.approachCont{
+  position: relative;
+  height: max-content !important;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+.approachStrengths{margin: 0 auto !important}
+.ann_cont_Route{background: var(--msgBlue)}
+.__404_routes{
+  margin-top: 1.5rem ;
+  justify-content: flex-start !important;
+  gap:.5rem;
+  flex-direction: row;
+}
+@media(max-width: 767px){
+  .approachStrengths{margin: 1.5rem auto !important}
+}

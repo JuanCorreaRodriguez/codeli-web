@@ -1,0 +1,40 @@
+<section class="contCodePartner">
+  <h2 class="featuresTitle gradientText42">{{ "features.title1"|translate }}<br/>{{ "features.title2"|translate }}</h2>
+  <p class="featuresDesc">{{ "features.desc"|translate }}</p>
+
+  <div class="cardsFeatures">
+
+    <div class="cardFeature">
+      <img class="tool" ngSrc="graphs.webp" alt="" sizes="30vw" width="width" height="height"/>
+      <div class="dataCard">
+        <h2>{{ "features.tCard1"|translate }}</h2>
+        <p>{{ "features.dCard1"|translate }}</p>
+      </div>
+    </div>
+
+    <div class="cardFeature">
+      <img class="tool" ngSrc="phone_sonar.webp" alt="" sizes="30vw" width="width" height="height"/>
+      <div class="dataCard">
+        <h2>{{ "features.tCard2"|translate }}</h2>
+        <p>{{ "features.dCard2"|translate }}</p>
+      </div>
+    </div>
+
+    <div class="cardFeature">
+      <img class="tool" ngSrc="timeline_push.webp" alt="" sizes="30vw" width="width" height="height"/>
+      <div class="dataCard">
+        <h2>{{ "features.tCard3"|translate }}</h2>
+        <p>{{ "features.dCard3"|translate }}</p>
+      </div>
+    </div>
+  </div>
+
+  @defer (on viewport) {
+    <app-simple-approach/>
+  } @placeholder {
+    <app-loader/>
+  }
+
+  <!--  <h2 class="featuresTitle">{{ "approach_landing.strategic_approach"|translate }}</h2>-->
+
+</section>

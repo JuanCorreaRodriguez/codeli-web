@@ -1,0 +1,153 @@
+.webDevService {
+  width: 100vw;
+  max-width: 100vw;
+  position: relative;
+  padding: 1rem !important;
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+  .dataWebDev {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: 10rem auto !important;
+
+    .dev_square {
+      width: 200px;
+      height: 200px;
+      background: var(--mainBackground);
+      border-radius: 100%;
+      transform: translate(80%, 0);
+      z-index: -1;
+    }
+
+    .sec1 {
+      flex: 1 0 45%;
+      width: 45%;
+      position: relative;
+
+      img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .code_switch {
+        right: -7.5rem !important;
+        z-index: 1;
+      }
+    }
+
+    .sec2 {
+      padding: 1.5rem;
+      flex: 0 1 45%;
+      width: 45%;
+
+      .ann_cont {
+        background: var(--msgBlue);
+
+        mat-icon {
+          color: var(--msgBlueS) !important
+        }
+
+        .ann {
+          font-weight: 700 !important;
+          color: var(--msgBlueS) !important;
+        }
+      }
+
+      .sec2Inner {
+        background: rgba(144, 202, 255, 0.2);
+        border: 1px solid rgba(144, 202, 255, .2);
+        border-radius: var(--globalRadius);
+        padding: 0 .5rem !important;
+        width: 100%;
+        min-height: 5rem !important;
+        margin: 1rem auto;
+
+        ul {
+          margin-block-start: .5em;
+          margin-block-end: .5em;
+          margin-inline-start: 0;
+          margin-inline-end: 0;
+          padding-inline-start: 20px;
+        }
+      }
+    }
+  }
+}
+
+.wsTitle {
+  font-size: 18px !important;
+  width: 60% !important;
+  margin: 0 auto !important;
+
+}
+
+.wsTitle {
+  text-align: center !important;
+  position: relative;
+}
+
+.dataWebDevServiceTitle {
+  transform-origin: center left;
+}
+
+
+@media (max-width: 760px) {
+  .webDevService {
+    .dataWebDev {
+      margin: 10rem auto !important;
+
+      .dev_square {
+        transform: translate(50%, 0);
+        border-radius: 100%;
+      }
+
+      .sec1 {
+        img {
+          left: 10px;
+        }
+
+        .code_switch {
+          left: unset !important;
+          transform: translate(0%, -50%);
+        }
+      }
+
+      .sec2 {
+        flex: 0 1 45%;
+        width: 45%;
+        padding: 0 !important;
+
+        .title {
+          margin: .5rem 0 !important;
+        }
+
+        button {
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+  .wsTitle {
+    font-size: 16px !important;
+    width: 98% !important;
+  }
+
+  .sec2Inner {
+    padding: 0 .25rem !important;
+    margin: 1rem auto;
+
+    ul {
+      margin-block-start: .35em;
+      margin-block-end: .35em;
+      padding-inline-start: 10px;
+    }
+  }
+}
+
+

@@ -1,0 +1,70 @@
+.countersCont {
+  position: relative;
+  max-width: 100vw;
+  margin: 10rem auto;
+
+  .counters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--msgBlue);
+    border-radius: calc(var(--globalRadius) * 5);
+    box-shadow: 0 0 35px 8px var(--msgBlueS);
+    padding: 1rem !important;
+    box-sizing: border-box;
+    width: 90vw;
+    margin: 5rem auto;
+    gap: 3.5rem;
+
+    .counter {
+      h2, p {
+        text-align: center !important
+      }
+
+      h2 {
+        color: var(--msgBlueS) !important
+      }
+
+      p {
+        width: 10rem !important
+      }
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  .countersCont {
+    margin: 2rem auto;
+
+    .counters {
+      width: 96vw;
+      margin: auto;
+      gap: .25rem;
+      flex-direction: column;
+      border-radius: calc(var(--globalRadius) * 2);
+
+      .counter {
+        display: flex;
+        flex-direction: row;
+        gap: .5rem;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+
+        h2, p {
+          text-align: start !important;
+          font-weight: 500 !important
+        }
+
+        h2 {
+          font-weight: 700 !important
+        }
+
+        p {
+          width: 80% !important;
+        }
+
+      }
+    }
+  }
+}

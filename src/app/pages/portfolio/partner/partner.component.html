@@ -1,0 +1,53 @@
+<!--<p>partner works!</p>-->
+
+<!--<img style="view-transition-name: partenerImg2" src="assets/img/google.webp">-->
+<section class="partnerCont">
+  <div class="centerFlexItems partnerHead">
+    <img id="transitionImg" class="partnerImg" [ngSrc]="oPartner.imgUrl" alt="" sizes="90vw" width="width"
+         height="height"/>
+    <h2>{{ oPartner.name }}</h2>
+
+    <div class="centerFlexItems portfolioTags">
+      @for (tech of oPartner.techs; track $index) {
+        <div class="ann_cont portfolioTag tagLanding"><p>{{ tech }}</p></div>
+      }
+      <!--      <div class="ann_cont portfolioTag tagLanding"><p>Landing page</p></div>-->
+      <!--      <div class="ann_cont portfolioTag tagWebApp"><p>Web-app</p></div>-->
+      <!--      <div class="ann_cont portfolioTag tagECommerce"><p>E-Commerce</p></div>-->
+    </div>
+
+    <div class="descCont">
+      <div class="centerFlexItems dateCont">
+        <mat-icon>calendar_today</mat-icon>
+        <p class=" dateProject">{{ oPartner.date }}</p>
+      </div>
+      @for (desc of oPartner.desc; track desc) {
+        <p>{{ desc }}</p>
+      }
+    </div>
+    
+    <div class="featuresCont">
+      <p class="featuresResume">{{ "portfolio.features"|translate }}</p>
+
+      <div class="centerFlexItems portfolioTags">
+        @for (feat of oPartner.features; track feat) {
+          <div class="ann_cont portfolioTag tagECommerce"><p>{{ feat }}</p></div>
+        }
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+@defer (on viewport) {
+  <app-contact/>
+} @placeholder {
+  <app-loader/>
+}
+@defer (on viewport) {
+  <app-footer/>
+} @placeholder {
+  <app-loader/>
+}
+

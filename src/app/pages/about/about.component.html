@@ -1,0 +1,34 @@
+<section class="aboutComp">
+  @defer (on viewport) {
+    <app-about-header/>
+  } @placeholder {
+    <app-loader/>
+  }
+  @defer (on viewport) {
+    <app-about-us/>
+  } @placeholder {
+    <app-loader/>
+  }
+  <div class="separator"></div>
+  @defer (on viewport) {
+    <app-codeli-metrics/>
+  } @placeholder {
+    <app-loader/>
+  }
+  <div class="separator"></div>
+  @defer (on viewport) {
+    <app-strengths/>
+  } @placeholder {
+    <app-loader/>
+  }
+  @defer (on viewport) {
+    <app-technos/>
+  } @placeholder {
+    <app-loader/>
+  }
+  @defer (on viewport) {
+    <app-footer/>
+  } @placeholder {
+    <app-loader/>
+  }
+</section>

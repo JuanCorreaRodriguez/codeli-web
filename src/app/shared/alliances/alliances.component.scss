@@ -1,0 +1,75 @@
+$rad: calc(var(--globalRadius) * 3);
+
+.alliancesCont {
+  position: relative;
+  min-height: 50vw;
+  width: 60%;
+  margin: 5rem auto 10rem auto;
+}
+
+.alliances_img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  border-radius: $rad;
+}
+
+.alliancePanel {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 15rem;
+  border-radius: $rad;
+  background: var(--globalBoxBlur);
+  padding: 1rem;
+  box-sizing: border-box;
+
+  h3, h2, p {
+    text-align: center;
+    font-weight: 500 !important;
+  }
+
+  h2 {
+    margin: 1rem auto !important;
+    font-weight: 700 !important;
+  }
+}
+
+.alliancesResume {
+  position: absolute;
+  width: 85%;
+  text-align: center;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 1100px) {
+  .alliancesCont {
+    min-height: 80vw;
+    width: 96%;
+    margin: 8.5rem auto;
+  }
+  .alliances_img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .alliancePanel {
+    top: -2.5rem;
+    max-width: 60%;
+
+    h2 {
+      font-size: 24px !important;
+      font-weight: 700 !important;
+    }
+  }
+  .alliancesResume {
+    width: 90%;
+    bottom: -2.5rem;
+  }
+}

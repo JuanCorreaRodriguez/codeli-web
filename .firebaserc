@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "codeli-studio-1b986",
+    "codeli-web": "codeli-studio-1b986"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

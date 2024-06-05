@@ -1,0 +1,79 @@
+<!--<button mat-button (click)="details('')">check</button>-->
+<!--<img style="view-transition-name: partenerImg2" src="assets/img/google.webp">-->
+
+<div class="partnersCont">
+
+  <div class="cardFeature" (click)="details('glamBeautySalon')">
+    <img style="view-transition-name:transition_Glam" class="tool" ngSrc="mockup_glam.webp" alt="" sizes="90%"
+         width="width" height="height"/>
+
+    <div class="centerFlexItems portfolioTags">
+      <div class="ann_cont portfolioTag tagLanding"><p>Landing page</p></div>
+      <div class="ann_cont portfolioTag tagWebApp"><p>Web-app</p></div>
+      <div class="ann_cont portfolioTag tagECommerce"><p>E-Commerce</p></div>
+    </div>
+
+    <div class="dataCard">
+      <div class="cardTitle">
+        <h2 class="title_01">GLAM Beauty Salon</h2>
+      </div>
+
+      <p>{{ "portfolio.glam1"|translate }}</p>
+    </div>
+  </div>
+
+  <div class="cardFeature" (click)="details('MasConciencia')">
+    <img style="view-transition-name:transition_awareness" class="tool" ngSrc="mockup_conciencia.webp" alt=""
+         sizes="90%" width="width" height="height"/>
+
+    <div class="centerFlexItems portfolioTags">
+      <div class="ann_cont portfolioTag tagLanding"><p>Landing page</p></div>
+    </div>
+
+    <div class="dataCard">
+      <div class="cardTitle">
+        <h2 class="title_01">Más Conciencia</h2>
+      </div>
+
+      <p>{{ "portfolio.mConsc1"|translate }}</p>
+    </div>
+  </div>
+
+  <div class="cardFeature" (click)="details('heterGroup')">
+    <img style="view-transition-name:transition_Heter" class="tool" ngSrc="mockup_heter.webp" alt="" sizes="90%"
+         width="width" height="height"/>
+
+    <div class="centerFlexItems portfolioTags">
+      <div class="ann_cont portfolioTag tagLanding"><p>Landing page</p></div>
+    </div>
+
+    <div class="dataCard">
+      <div class="cardTitle">
+        <h2 class="title_01">Heter Group</h2>
+      </div>
+
+      <p>{{ "portfolio.heter1"|translate }}</p>
+    </div>
+  </div>
+
+  <div class="cardFeature" (click)="details('Nox46')">
+    <img style="view-transition-name:transition_Nox" class="tool" ngSrc="mockup_nox.webp" alt="" sizes="90%"
+         width="width" height="height"/>
+
+    <div class="centerFlexItems portfolioTags">
+      <div class="ann_cont portfolioTag tagLanding"><p>Landing page</p></div>
+      <div class="ann_cont portfolioTag tagWebApp"><p>Web-app</p></div>
+      <div class="ann_cont portfolioTag tagECommerce"><p>E-Commerce</p></div>
+      <div class="ann_cont portfolioTag tagSAAS"><p>SaaS</p></div>
+    </div>
+
+    <div class="dataCard">
+      <div class="cardTitle">
+        <h2 class="title_01">Nox46</h2>
+      </div>
+
+      <p>{{ "portfolio.nox1"|translate }}</p>
+    </div>
+  </div>
+
+</div>
