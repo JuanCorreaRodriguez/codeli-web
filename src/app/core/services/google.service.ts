@@ -18,7 +18,8 @@ export class GoogleService {
   async sendEmailFunc(data: iContactEmail) {
     console.log(`INIT email:${JSON.stringify(data)}`)
     try {
-      const url: string = "http://127.0.0.1:5001/codeli-studio/us-central1/sendEmail"
+      // const url: string = "http://127.0.0.1:5001/codeli-studio/us-central1/sendEmail"
+      const url: string = "https://sendemail-dxylt4curq-uc.a.run.app"
 
       if (!data.token) return
 
