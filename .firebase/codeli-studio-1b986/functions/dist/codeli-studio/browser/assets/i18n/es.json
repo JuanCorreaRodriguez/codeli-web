@@ -1,0 +1,545 @@
+{
+  "Common": {
+    "learnMore": "Conoce más"
+  },
+  "HeaderMain": {
+    "title": "Tu visión, nuestra misión",
+    "t1": "Creamos increibles",
+    "t2A": "experiencias",
+    "t2B": "soluciones",
+    "t2C": "inovaciones",
+    "t2D": "productos",
+    "t2E": "estrategias",
+    "t2F": "diseños",
+    "t2G": "software",
+    "t3": "que capturan la esencia única de tu negocio",
+    "desc": "Somos más que desarrolladores; somos socios que te ayudaran a forjar el exito de tu vision, dedicados a dar forma tangible a tus ideas cuidando cada detalle del proceso",
+    "continue": "Continuar",
+    "contactUs": "Contactanos",
+    "checkApproach": "Conoce nuestro proceso"
+  },
+  "Clients": {
+    "title1": "Algunos de nuestros",
+    "title2": "clientes"
+  },
+  "About": {
+    "header": {
+      "title1": "Queremos ayudarte a alcanzar tus",
+      "title2": "objetivos comerciales.",
+      "desc": "En Codeli Studio, nuestro equipo de expertos trabaja estrechamente con usted para comprender sus desafíos y desarrollar soluciones digitales que superen sus expectativas."
+    },
+    "us": {
+      "title": "¿Porqué nosotros?",
+      "desc1": "Creemos que la tecnología es una herramienta poderosa que puede transformar las empresas y mejorar vidas. Por ello, nos enfocamos en comprender las necesidades específicas de cada cliente y desarrollar soluciones personalizadas que le ayuden a alcanzar sus objetivos.",
+      "desc2": "Contamos con un equipo de expertos altamente calificados y con amplia experiencia en una variedad de industrias. Estamos constantemente actualizados con las últimas tendencias tecnológicas y utilizamos las mejores prácticas para garantizar que nuestros clientes reciban soluciones de vanguardia.",
+      "t1": "Amplia gama de soluciones",
+      "d1": "Después de examinar en profundidad su modelo de negocio, presentamos una gama variada y completa de soluciones en la gama más asequible.",
+      "t2": "Solución personalizada",
+      "d2": "Brindamos soluciones y servicios personalizados basados en los problemas y fallas de su negocio y le hacemos aprovechar al máximo.",
+      "t3": "Plazos comprometidos",
+      "d3": "Entregamos tus proyectos a tiempo, sin excepciones trabajando con metodologías ágiles que garantizan entregas puntuales y adaptabilidad a cambios. Nos comprometemos contigo y te mantenemos informado del progreso del proyecto en cada etapa.",
+      "t4": "Modelo flexible y económico.",
+      "d4": "Nos adaptamos a tus necesidades y presupuesto. Ofrecemos diferentes modelos de trabajo para que elijas el que mejor se ajuste a tu proyecto. Te garantizamos una excelente relación calidad-precio."
+    }
+  },
+  "approach": {
+    "title": "En todo lo que hacemos,",
+    "title_span_1": "priorizamos la atención",
+    "title_2": "y el",
+    "title_span_2": "cuidado",
+    "title_3": "en cada detalle.",
+    "desc": "Cuestionamos constantemente el motivo detrás de cada decisión y estamos dispuestos a explorar profundamente para encontrar la forma más eficiente, impactante y, sobre todo, relevante de hacer avanzar su negocio.",
+    "strategic_approach": "Enfoque estratégico",
+    "subtitle_first": "Primer",
+    "title_first": "Descubrimiento",
+    "resume_first": "Todo proyecto de diseño y desarrollo empieza por entender verdaderamente el '¿Por qué?' del negocio. Juntos, identificamos esos objetivos y luego aplicamos nuestra experiencia para encontrar soluciones realistas.",
+    "subtitle_second": "Despúes",
+    "title_second": "¿Qué se necesita?",
+    "resume_second": "Después de establecer metas y diseño, viene la estrategia. Co-creamos esta estrategia juntos, investigando tus historias y datos de usuario, el plan y el cronograma necesarios.",
+    "subtitle_third": "Finalmente",
+    "title_third_1": "",
+    "title_third_2": "Construyamos",
+    "resume_third": "Solo hasta establecer el diseño y las estrategias, alcances y necesidades, comenzamos el desarrollo. Ejecutamos pruebas de concepto, producto mínimo viable y el lanzamiento listo para producción"
+  },
+  "_approach": {
+    "subtitle": "Definición de metas.",
+    "title1": "No sólo nos dedicamos al desarrollo de aplicaciones",
+    "title2": "web",
+    "title3": "y",
+    "title4": "móviles",
+    "title5": "",
+    "desc": "Nos sumergimos en la esencia misma de cada proyecto, entendiendo profundamente los objetivos y visiones de nuestros clientes."
+  },
+  "strategic": {
+    "title1": "ACERCAMIENTO",
+    "title2": "ESTRATÉGICO",
+    "desc": "Desde nuestros inicios, nos hemos esforzado por mantener una cultura de colaboración, creatividad y excelencia en todo lo que hacemos. Valoramos cada proyecto, grande o pequeño, como una oportunidad para ampliar los límites de la innovación y marcar una diferencia real."
+  },
+  "_approachCards": {
+    "subtitle": "",
+    "title1": "Descubre el",
+    "title2": "núcleo",
+    "title3": "de tu Empresa",
+    "desc": "En Codeli Studio, cada proyecto se inicia con una pregunta esencial: ¿Cuál es el propósito detrás de tu negocio? Nos sumergimos en la esencia de tu empresa, identificamos metas claras y aplicamos nuestra experiencia para ofrecerte soluciones concretas y efectivas.",
+    "desc_a": "Sesiones de Descubrimiento para explorar a fondo tus objetivos.",
+    "desc_b": "Auditorías Tecnológicas y Diseño para establecer una base sólida.",
+    "desc_c": "Coordinación entre todas las partes interesadas para una estrategia unificada.",
+    "desc_d": "Definición precisa de metas para garantizar resultados medibles."
+  },
+  "_approachCards2": {
+    "desc": "Con base en nuestra comprensión de tu negocio, creamos estrategias personalizadas que se alinean con tus objetivos. Definimos la arquitectura y las tecnologías que mejor se adaptan a tus necesidades, y establecemos un plan de trabajo detallado para optimizar el proceso de desarrollo.",
+    "desc_a": "Establecemos metas SMART (específicas, medibles, alcanzables, relevantes y con un plazo determinado)",
+    "desc_b": "Desarrollamos una estrategia integral que define la arquitectura tecnológica, las funcionalidades clave, el cronograma del proyecto y los recursos necesarios."
+  },
+  "_approachCards3": {
+    "desc": "Damos vida a tu visión con un lanzamiento impecable, asegurando que tu solución funcione sin problemas y cumpla con tus expectativas. Establecemos períodos de mantenimiento regulares para asegurarnos de que tu software esté siempre actualizado y funcionando al máximo rendimiento.",
+    "desc_a": "Implementamos la solución en tu entorno de producción.",
+    "desc_b": "Monitoreamos de cerca el rendimiento de la solución y brindamos soporte técnico continuo.",
+    "desc_c": "Implementamos actualizaciones periódicas para mejorar el rendimiento, agregar nuevas funciones y corregir errores."
+  },
+  "Toolbar": {
+    "home": "Inicio",
+    "about": "Acerca de nosotros",
+    "blog": "Blog",
+    "login": "Ingresar",
+    "contact": "Contacto",
+    "tooltipTheme": "Cambiar tema",
+    "tooltipLanguage": "Cambiar idioma",
+    "dashboard": "Dashboard",
+    "letsStart": "Empecemos",
+    "portfolio": "Portafolio",
+    "planning": "Planificación - Enfoque",
+    "dev_web": "Desarrollo web",
+    "strategy": "Estrategia de producto",
+    "consulting": "Consultoría",
+    "english": "Inglés",
+    "spanish": "Español",
+    "services": "Servicios"
+  },
+  "Footer": {
+    "workInTogether": "Trabajemos juntos",
+    "desc": "En Codeli Studio, estamos comprometidos a ofrecerte soluciones de programación y consultoría de primer nivel. Creemos que la colaboración es la clave del éxito, por eso te invitamos a trabajar juntos en tu próximo proyecto. ",
+    "services": "Servicios",
+    "resources": "Recursos",
+    "company": "Compañia",
+    "cta": "Descubre cómo podemos ayudarte",
+    "privacity": "Aviso de privacidad"
+  },
+  "Contact": {
+    "title": "",
+    "desc": "Envíe a nuestro equipo un mensaje rápido con su pregunta, ideas de proyectos y nos comunicaremos con usted lo antes posible. Somos bastante receptivos e intentaremos responder en unas horas.",
+    "ann1": "Contacta con nosotros y",
+    "nameLabel": "Tu nombre",
+    "nameHint": "",
+    "emailLabel": "Email de contacto o teléfono",
+    "emailHint": "",
+    "whatsLabel": "¿Contactar por WhatsApp?",
+    "serviceLabel": "Selecciona los servicios que te interesen",
+    "commentsHint": "Comentarios...",
+    "btn": "Enviar mensaje",
+    "required": "Campo requerido",
+    "notAvailableDate": "Fecha no disponible",
+    "notAvailableDateDesc1": "Parece que la fecha y hora de su reunión no están disponibles.",
+    "notAvailableDateDesc11": "Sin embargo, encontramos la fecha:",
+    "notAvailableDateDesc2": "disponible.",
+    "notAvailableDateDesc3": "¿Quieres continuar con esta fecha?",
+    "changeDate": "Cambiar fecha de mi reunión",
+    "eventCreate": "Tu evento ha sido creado. Echa un vistazo a tu Calendario de Google."
+  },
+  "WebDev": {
+    "title": "¿Estás cansado de soluciones genéricas que no satisfacen las necesidades específicas de tu negocio?",
+    "desc": "Creemos que cada organización tiene sus propios desafíos y oportunidades, por lo que no existe una solución única para todos. Nuestro enfoque no es solo desarrollar software, sino crear soluciones a medida que se ajustan perfectamente a las necesidades únicas de tu empresa. personalizados que se adaptan perfectamente a tus necesidades.",
+    "subTitleWebDev": "Hecho a medida",
+    "WebDevTitle": "Creamos sitios web, aplicaciones web y tiendas de comercio electrónico que se ajustan a tu marca, tu público objetivo y tus flujos de trabajo específicos.",
+    "branding": "Aumenta tu presencia online y fortalecer tu marca.",
+    "ux": "Mejora la experiencia de usuario y aumentar las conversiones.",
+    "automation": "Automatiza procesos y optimizar tu flujo de trabajo.",
+    "profits": "Reduce costos y aumentar tu rentabilidad.",
+    "market": "Obten una ventaja competitiva en tu mercado."
+  },
+  "_WebDev": {
+    "slogan": "Tu negocio en todas partes.",
+    "title1": "Vamos más allá del desarrollo: ofrecemos soluciones integrales, fusionando",
+    "title2": "diseño innovador",
+    "title3": "con",
+    "title4": "funcionalidad excepcional",
+    "desc1": "Desde la definición clara del alcance hasta una gestión eficaz del presupuesto, nuestra metodología garantiza objetivos cumplidos, calidad excepcional, plazos respetados y presupuestos controlados.",
+    "titleIntroduce1": "DESARROLLO",
+    "titleIntroduce2": "WEB",
+    "descIntroduce": "El desarrollo web es la clave para resolver los desafíos diarios de los negocios en el mundo digital. Creamos experiencias web excepcionales que mejoran la visibilidad, la interacción y los resultados comerciales. Aumenta tu presencia en línea y destaca entre la competencia con nuestro enfoque experto en desarrollo web."
+  },
+  "_WebDesign": {
+    "slogan": "Ideas vivas",
+    "title1": "Nuestra",
+    "title2": "pasión",
+    "title3": "por el diseño y el",
+    "title4": "desarrollo",
+    "title5": "se refleja en cada proyecto...",
+    "desc1": "creando experiencias de usuario memorables. Desde la definición clara del alcance hasta una gestión eficaz del presupuesto, nuestra metodología garantiza objetivos cumplidos, calidad excepcional, plazos respetados y presupuestos controlados.",
+    "descIntroduce": ""
+  },
+  "_WebStrategy": {
+    "slogan": "Resultados reales",
+    "title1": "Más que solo codificar, nos centramos en",
+    "title2": "resultados tangibles",
+    "title3": ", transformando visiones en",
+    "title4": "realidades",
+    "desc1": "Analizamos el mercado y sus necesidades, definimos objetivos claros, desarrollamos productos con enfoque centrado en el usuario, y gestionamos el proceso, desde la concepción hasta la optimización continua.",
+    "descIntroduce": ""
+  },
+  "_WebConsulting": {
+    "slogan": "Transforma tu vision",
+    "title2": "Consultoría especializada",
+    "title3": "en el desarrollo y mantenimiento web",
+    "desc1": "Ayudamos a nuestros clientes hacia el cumplimiento de metas. Nos enfocamos en cada cliente individualmente, adaptando nuestras soluciones a sus necesidades, metas y visión específicas.",
+    "descIntroduce": ""
+  },
+  "Consulting": {
+    "intro": {
+      "title1": "Soporte &",
+      "title2": "Consultoría",
+      "desc1": "En Codeli Studio entendemos que el desarrollo web es un proceso complejo que requiere experiencia, planificación detallada y ejecución precisa. Es por eso que ofrecemos servicios de consultoría de desarrollo web diseñados para guiarlo en cada etapa del proyecto. Ya sea que esté iniciando un nuevo proyecto o buscando mejorar uno existente, nuestra consultoría le brinda el conocimiento y las estrategias necesarias para lograr sus objetivos.",
+      "desc2": "El proceso de consultoría comienza con una evaluación exhaustiva de sus necesidades y objetivos. Analizamos tu situación actual y proponemos soluciones personalizadas y alineadas con tus objetivos de negocio. Durante todo el proyecto, te acompañamos en la planificación, diseño, desarrollo e implementación, asegurando que cada fase se ejecute con precisión y eficacia."
+    }
+  },
+  "ConsultingService": {
+    "subtitle": "Servicio de consultoría",
+    "title": "Ofrecemos consultoría para empresas de todos los tamaños.",
+    "desc": "Existen muchas empresas de consultoría que te dirán qué hacer para que tu empresa sea más rentable. En Codeli no sólo te ofrecemos asesoramiento profesional y creativo, sino que también valoramos tus ideas y sugerencias.",
+    "q1": "¿En qué podemos ayudarte?",
+    "i1a": "Definición de objetivos y estrategia:",
+    "i1b": "Te ayudamos a definir claramente los objetivos de tu proyecto.",
+    "i2a": "Análisis de tu negocio:",
+    "i2b": "Realizamos un análisis completo de tu negocio para identificar las necesidades específicas de tu proyecto.",
+    "i3a": "Selección de la tecnología adecuada:",
+    "i3b": "Te asesoramos en la selección de las tecnologías teniendo en cuenta tu presupuesto, tus necesidades y tus objetivos.",
+    "i4a": "Arquitectura y diseño web:",
+    "i4b": "Diseñamos la arquitectura y creamos un diseño atractivo y funcional que se adapte a las necesidades.",
+    "i5a": "Desarrollo y pruebas:",
+    "i5b": "Te informamos sobre las mejores prácticas de la industria asi como las pruebas exhaustivas para garantizar el lanzamiento de tu proyecto.",
+    "i6a": "Implementación y mantenimiento:",
+    "i6b": "Implementar tu proyecto en un entorno de producción y te ofrecemos servicios de mantenimiento continuo para asegurarte de que tu proyecto funcione correctamente."
+  },
+  "ConsultingCount": {
+    "m1": "de eficiencia operativa con soluciones de automatización",
+    "m2": "de reducción en costos mediante la migración a la nube.",
+    "m3": "de ingresos generados por la introducción de nuevas tecnologías."
+  },
+  "ConsultingNeeds": {
+    "t1": "Entendiendo tus necesidades comerciales.",
+    "d1": "Analizar tus necesidades comerciales es muy importante. Es como un puente entre tus objetivos de ventas y los desarrolladores, asegurándose de que tus necesidades y deseos se comprendan y cumplan correctamente.",
+    "t2": "Haciendo tus procesos más eficientes.",
+    "d2": "Automatizar tus procesos comerciales es clave para un crecimiento exitoso. Nuestros consultores te ayudarán a hacer que tus procesos sean más eficientes y menos costosos, dándote consejos valiosos sobre qué software utilizar para mejorar tu funcionamiento y reducir gastos.",
+    "t3": "Optimizando tu arquitectura informática.",
+    "d3": "La arquitectura informática puede ser complicada, pero nosotros nos encargamos de que tus procesos internos y externos sean lo más efectivos posible. Confía en nuestra experiencia para reducir costos y mejorar la eficiencia de tu empresa.",
+    "t4": "Soporte continuo y de calidad.",
+    "d4": "Nuestro trabajo no termina cuando el proyecto está completo. Estamos siempre disponibles para ayudarte, incluso después de mucho tiempo de trabajar juntos."
+  },
+  "ConsultingUs": {
+    "title": "¿Por qué elegirnos?",
+    "desc": "En Codeli Studio, sabemos que el éxito de tu proyecto web depende de una planificación estratégica, una ejecución precisa y la experiencia de un equipo experto. Por eso, te ofrecemos una consultoría integral que abarca desde la definición de objetivos hasta el mantenimiento continuo de tu sitio web.",
+    "reasons": {
+      "t1": "Equipo de expertos:",
+      "d1": "Contamos con un equipo de expertos en desarrollo web, diseño gráfico y marketing digital con amplia experiencia en una variedad de industrias.",
+      "t2": "Metodología ágil:",
+      "d2": "Utilizamos metodologías ágiles de desarrollo para garantizar que tu proyecto se mantenga dentro del presupuesto y el cronograma establecidos.",
+      "t3": "Enfoque centrado en el cliente: ",
+      "d3": "Nos enfocamos en comprender tus necesidades y objetivos específicos para desarrollar una solución personalizada para tu negocio.",
+      "t4": "Comunicación efectiva:",
+      "d4": "Mantenemos una comunicación abierta y transparente contigo durante todo el proceso de desarrollo.",
+      "t5": "Compromiso con la calidad:",
+      "d5": "Nos comprometemos a entregar un sitio web de alta calidad que cumpla con tus expectativas."
+    }
+  },
+  "WDesign": {
+    "subTitleWDesign": "Experiencias únicas",
+    "title": "Diseño web",
+    "desc": "Creemos firmemente que el diseño web no se trata solo de estética, sino de crear experiencias únicas.Nuestro enfoque no es crear una extensión de tu marca que transmita tu mensaje de manera efectiva."
+  },
+  "features": {
+    "title1": "Todo lo que necesitas,",
+    "title2": "Nada que no.",
+    "desc": "Nos enfocamos en comprender tus necesidades y objetivos específicos para desarrollar herramientas que optimicen tus procesos, fortalezcan tu marca y te diferencien en el mercado.",
+    "tCard1": "Crecimiento exponencial",
+    "dCard1": "Soluciones personalizadas que impulsan tus resultados. Observa cómo tu negocio despega con nuestras estrategias data-driven.",
+    "tCard2": "Soluciones a tu medida",
+    "dCard2": "Creamos herramientas que se adaptan a tus necesidades, desde aplicaciones móviles hasta sitios web y servicios web para conectar con tu público objetivo de manera innovadora.",
+    "tCard3": "Mejora continua",
+    "dCard3": "Transparencia y colaboración en cada paso del proceso. Te mantenemos informado con un registro detallado de las evoluciones de tu proyecto."
+  },
+  "simpleApproach": {
+    "card1subtitle": "Descubrimiento",
+    "card1title1": "Entendiendo tu",
+    "card1title2": "negocio",
+    "card1title3": "tu",
+    "card1title4": "visión",
+    "card1title5": "y tus",
+    "card1title6": "desafíos",
+    "card2subtitle": "¿Qué se necesita?",
+    "card2title1": "Diseñando la",
+    "card2title2": "solución perfecta",
+    "card2title3": "para ti",
+    "card3subtitle": "Finalmente",
+    "card3title1": "Lanzamiento, mantenimiento y",
+    "card3title2": "mejora continua"
+  },
+  "strength": {
+    "title1": "Colaboración.",
+    "desc1": "En nuestro equipo valoramos la colaboración y el trabajo en equipo. Creemos en la importancia de unir fuerzas y compartir conocimientos para lograr objetivos comunes y superar desafíos técnicos de manera efectiva.",
+    "title2": "Adaptabilidad.",
+    "desc2": "En un entorno tecnológico en constante evolución, la adaptabilidad es esencial. Estamos comprometidos a permanecer flexibles y abiertos al cambio, ajustando nuestras estrategias y procesos de acuerdo a las necesidades del proyecto y las demandas del mercado.",
+    "title3": "Innovación.",
+    "desc3": "La innovación es el motor de nuestro éxito. Nos esforzamos por encontrar nuevas y mejores formas de resolver problemas, utilizando tecnologías de vanguardia y adoptando prácticas de desarrollo ágiles para ofrecer soluciones innovadoras y de alta calidad a nuestros clientes.",
+    "title4": "Empatía.",
+    "desc4": "Entendemos que detrás de cada línea de código hay una persona. Nos esforzamos por practicar la empatía en nuestro trabajo, poniéndonos en el lugar de nuestros clientes y usuarios finales para comprender sus necesidades y crear soluciones que realmente agreguen valor.",
+    "title5": "Compromiso con la excelencia.",
+    "desc5": "En nuestra empresa, estamos comprometidos con la excelencia en todo lo que hacemos. Desde la planificación y el diseño hasta el desarrollo y la implementación, nos esforzamos por alcanzar la perfección en cada paso del proceso, buscando constantemente mejorar y superar las expectativas de nuestros clientes."
+  },
+  "metrics": {
+    "subtitle": "Trabajemos juntos",
+    "resumeT": "No esperes! Construyamos algo increíble.",
+    "resumeD": "Cuestionamos constantemente el motivo detrás de cada decisión y estamos dispuestos a explorar profundamente para encontrar la forma más eficiente, impactante y, sobre todo, relevante de hacer avanzar su negocio.",
+    "metric1": "Retención de clientes",
+    "metric2": "Años de servicio",
+    "metric3": "Tecnologías",
+    "metric4": "Clientes satisfechos"
+  },
+  "vision": {
+    "subtitle": "El siguiente paso...",
+    "title1": "Transforma tu",
+    "title2": "visión",
+    "title3": "en una",
+    "title4": "realidad",
+    "soft": "Desarrollo de software personalizado",
+    "softDesc": "Creamos software que se ajusta a tus flujos de trabajo, procesos y objetivos específicos, maximizando tu eficiencia y productividad.",
+    "QA": "Control de calidad y pruebas",
+    "QADesc": "Implementamos rigurosas pruebas y metodologías de control de calidad para garantizar que tu software funcione sin problemas y cumpla con los más altos estándares.",
+    "UX": "Diseño UX/UI",
+    "UXDesc": "Desarrollamos interfaces visualmente atractivas que reflejan la identidad de tu marca y captan la atención de tu público objetivo.",
+    "App": "Desarrollo de aplicaciones móviles",
+    "AppDesc": "Creamos aplicaciones móviles que te permiten llegar a tu público objetivo dondequiera que estén, ampliando tu alcance y fortaleciendo tu presencia en el mercado."
+  },
+  "alliances": {
+    "title": "Creando alianzas globales",
+    "title2": "Perspectiva global",
+    "desc": "En Codeli Studio, creemos que el éxito no se limita a las fronteras. Por eso, forjamos alianzas estratégicas con empresas líderes en todo el mundo para ofrecerte soluciones tecnológicas colaborando con los mejores desarrolladores, diseñadores y expertos"
+  },
+  "technos": {
+    "title": "We create solid and reliable software using the most advanced technologies."
+  },
+  "success": {
+    "subtitle": "Proyectos de éxito",
+    "title1": "Siempre buscamos asegurar el",
+    "title2": "éxito",
+    "title3": "de todos nuestros proyectos",
+    "desc1": "Descubra cómo aseguramos el éxito en cada proyecto de desarrollo web. Desde una definición clara del alcance hasta una gestión presupuestaria eficaz, nuestra metodología garantiza objetivos cumplidos, calidad excepcional, plazos respetados y presupuestos controlados.",
+    "cTitle1": "Definición clara del alcance del proyecto.",
+    "cDesc1": "Es fundamental tener una comprensión completa de lo que espera lograr con el proyecto y establecer límites claros para evitar desviaciones y garantizar que se cumplan los objetivos.",
+    "cTitle2": "Gestión presupuestaria eficaz",
+    "cDesc2": "Es esencial hacer una estimación precisa de los costos del proyecto y administrar adecuadamente los recursos financieros disponibles para evitar sobrecostos.",
+    "cTitle3": "Control de calidad continuo",
+    "cDesc3": "Implementar un proceso de control de calidad desde el inicio del proyecto hasta su finalización es fundamental para garantizar que el producto final cumpla con los estándares de calidad esperados y satisfaga las necesidades de los usuarios.",
+    "cTitle4": "Comunicación y colaboración efectivas.",
+    "cDesc4": "Fomentar la comunicación abierta y transparente entre todos los miembros del equipo y las partes interesadas es clave para garantizar que todos estén alineados con los objetivos, requisitos y plazos del proyecto.",
+    "cTitle5": "Planificación y gestión de riesgos.",
+    "cDesc5": "Identificar y gestionar proactivamente los posibles riesgos y obstáculos que puedan surgir durante el desarrollo del proyecto es fundamental para minimizar su impacto en el cronograma y el resultado final."
+  },
+  "portfolio": {
+    "title": "Descubre cómo transformamos ideas en éxitos digitales: Nuestro Portafolio.",
+    "title2": "Nuestro Portafolio",
+    "desc": "En nuestro portafolio, te invitamos a sumergirte en un mundo de innovación y excelencia digital. Desde startups hasta empresas consolidadas, hemos tenido el privilegio de colaborar con una amplia gama de clientes, ayudándoles a convertir sus visiones en realidad.",
+    "glam1": "Nos enorgullece presentar nuestro último proyecto, una solución integral para el mundo del Nail-Art. Desde la creación de una cautivadora landing page que invita a explorar el universo de la belleza en las manos, hasta el desarrollo de una robusta web-app para administrar inventarios y gestionar la logística de manera eficiente.",
+    "glam2": "Con una cuidadosa integración de un e-commerce fácil de usar, hemos facilitado la experiencia de compra tanto para profesionales como para el público en general, ofreciendo una amplia gama de productos de marcas líderes y servicios de belleza excepcionales.",
+    "glam3": "Este proyecto no solo ha sido un desafío técnico, sino también una oportunidad para fusionar la creatividad con la funcionalidad, creando una experiencia digital que refleje la belleza y la elegancia del mundo del Nail-Art. Estamos emocionados de haber colaborado en este proyecto y ansiosos por llevar esta misma pasión y excelencia a futuras empresas que busquen destacarse",
+    "nox1": "Desarrollamos una plataforma integral de planificación de eventos diseñada para hacer que la organización de eventos sociales sea más fácil, eficiente y emocionante que nunca. Nuestra solución combina una landing page cautivadora, una web-app intuitiva para la administración de eventos y un software como servicio (SaaS) personalizable que ofrece una experiencia completa desde la inspiración inicial hasta la ejecución del evento.",
+    "nox2": "Creamos una landing page impresionante que cautiva a los visitantes desde el primer momento. Con un diseño moderno, imágenes cautivadoras y un mensaje claro y persuasivo.",
+    "nox3": "Nuestra web-app de administración de eventos es la herramienta perfecta para planificar, organizar y ejecutar eventos de manera eficiente. Con características como la gestión de invitados, la agenda del evento, el seguimiento de tareas y la gestión de proveedores, nuestra web-app facilita cada aspecto del proceso de planificación, permitiendo a nuestros usuarios enfocarse en lo que realmente importa: crear experiencias inolvidables para ellos y sus invitados.",
+    "mConsc1": "En nuestra agencia, nos enorgullece ofrecer soluciones integrales para transformar la presencia en línea de nuestros clientes. Recientemente, desarrollamos una potente landing page para Mas Conciencia, un emprendimiento dedicado a mejorar la salud financiera y espiritual de sus clientes.",
+    "mConsc2": "Además de diseñar una página web atractiva y funcional, implementamos herramientas avanzadas como un sistema de agenda de citas y un sistema de envío de correos electrónicos automatizados.",
+    "mConsc3": "Este proyecto no solo mejoró la visibilidad en línea de Mas Conciencia, sino que también optimizó sus procesos internos, permitiéndoles gestionar eficientemente sus citas y comunicarse de manera efectiva con su audiencia. Si buscas una solución completa y efectiva para tu negocio en línea, ¡nosotros podemos ayudarte a alcanzar tus objetivos!",
+    "heter1": "Desarrollamos una landing page para Heter Group, empresa especializada en reclutamiento industrial. Simplificamos el proceso de contratación tanto para empresas como para personal, ofreciendo una experiencia eficiente y directa. Con la útlima versión de Angular, optimizamos la velocidad y SEO mediante SSR, desplegando el sitio en Firebase para una accesibilidad mejorada.",
+    "heter2": "La colaboración con Heter Group nos permitió desarrollar una landing page diseñada específicamente para facilitar el proceso de reclutamiento en el sector industrial. Con un enfoque en la simplicidad y la eficiencia, creamos una una landing page que hace que tanto las empresas como los candidatos se sientan cómodos y respaldados en cada paso del camino.",
+    "heter3": "Implementamos una interfaz intuitiva que les permite conocer y contratar los servicios de Heter Group de manera rápida y sin complicaciones. La navegación fluida y las opciones claras aseguran que puedan acceder a los servicios que necesitan con facilidad. Además, creamos una tarjeta de presentación digital minimalista para los candidatos, ofreciendo una visión rápida y completa de su perfil y enlaces relevantes a redes sociales. Nuestra elección de Angular, nos permitió construir una plataforma robusta y flexible que se adaptará a las necesidades futuras de expansión.",
+    "features": "Algunas funcionalidades principales:"
+  },
+  "webServices": {
+    "lp": {
+      "slogan": "Expande tu alcance",
+      "desc1": "Una página de destino es una página web diseñada específicamente para convertir visitantes en clientes potenciales o clientes potenciales. Es un elemento clave en la estrategia de marketing digital de cualquier pequeña empresa.",
+      "desc2": "Una página de destino bien diseñada puede captar la atención de sus visitantes y motivarlos a proporcionar información de contacto, convirtiéndolos en clientes potenciales para su negocio.",
+      "desc3": "Esta es una herramienta poderosa para pequeñas empresas que desean aumentar sus conversiones y mejorar su presencia en línea, además de ser una excelente opción para nuevos negocios.",
+      "mTitle": "Atraer nuevos clientes",
+      "mDesc": "y mejora tus ingresos"
+    },
+    "eCom": {
+      "slogan": "Maximiza tu productividad",
+      "desc1": "Un E-commerce es una plataforma online que permite a los usuarios comprar y vender productos o servicios de forma electrónica.",
+      "desc2": "Con el comercio electrónico, puede llegar a clientes potenciales en todo el mundo, rompiendo barreras geográficas y ampliando el alcance de su negocio. Además, su disponibilidad es 24 horas al día, 7 días a la semana.",
+      "desc3": "Podrás ofrecer una experiencia de compra personalizada a tus clientes, recomendando productos relevantes, ofreciendo promociones exclusivas y facilitando la navegación por categorías y filtros.",
+      "mTitle": "Optimiza procesos",
+      "mDesc": "aumenta tu eficiencia."
+    },
+    "ws": {
+      "slogan": "Colaboración interna",
+      "desc1": "Un sitio web completo proporciona una plataforma robusta para presentar tu negocio de manera profesional y ofrecer información detallada sobre tus productos o servicios. Un sitio web completo te permite integrar herramientas y funcionalidades adicionales, como formularios de suscripción, chat en vivo, e-commerce y mucho más.",
+      "desc2": "Un sitio web completo es una plataforma en línea que abarca múltiples páginas y funcionalidades para promover un negocio o una marca de manera integral.",
+      "mTitle": "Fortalece la lealtad del cliente",
+      "mDesc": "y fomenta la retención."
+    },
+    "wa": {
+      "slogan": "Agiliza procesos",
+      "desc1": "Una aplicación web es una aplicación basada en web a la que se accede a través de un navegador web y ofrece una funcionalidad similar a la de una aplicación móvil o de escritorio.",
+      "desc2": "Se puede acceder a una aplicación web desde cualquier dispositivo con un navegador web, lo que permite a los usuarios utilizar la aplicación sin descargar ni instalar software adicional.",
+      "desc3": "Las aplicaciones web se ejecutan en la nube, lo que significa que reciben actualizaciones y mejoras instantáneas para todos los usuarios, lo que garantiza que sus clientes siempre utilizarán la última versión de la aplicación web.",
+      "mTitle": "Automatiza tareas",
+      "mDesc": "y crea nuevas oportunidades."
+    }
+  },
+  "uiux": {
+    "intro": {
+      "desc": "'User Interface' (UI) y 'User Experience' (UX) se trata de cómo se ve y se siente una página web o una aplicación, y cómo interactúan los usuarios con ella."
+    },
+    "wireframing": {
+      "subtitle": "Diseño Pro",
+      "title": "Wireframing Intuitivo",
+      "desc": "El proceso de wireframing marca el inicio de nuestro enfoque en diseño UI/UX. Es aquí donde transformamos ideas en estructuras tangibles, estableciendo las bases para la navegación y funcionalidad de tu producto digital.",
+      "desc2": "Con una meticulosa atención al detalle, creamos wireframes que sirven como la columna vertebral de la interfaz de usuario final, asegurando una sólida plataforma para su desarrollo posterior."
+    },
+    "design": {
+      "title1": "Diseño centrado en el",
+      "title2": "usuario",
+      "desc1": "En Codeli Studio, nuestro enfoque de diseño UI/UX se basa en un profundo conocimiento de las necesidades y expectativas de los usuarios. Cada paso del proceso de diseño está cuidadosamente orientado a mejorar la experiencia del usuario y facilitar la interacción en cada proyecto.",
+      "desc2": "Cada elemento visual y funcional se crea pensando en el usuario. Desde la disposición de los elementos en pantalla hasta la elección de colores y tipografía, cada detalle está cuidadosamente diseñado para garantizar una experiencia de usuario intuitiva y satisfactoria."
+    },
+    "advent": {
+      "ta1": "Mejora la",
+      "ta2": "conversión",
+      "da1": "Un diseño intuitivo y bien pensado puede tener un impacto significativo en las tasas de conversión de un sitio web o una aplicación.",
+      "da2": "Al facilitar el proceso de navegación y compra, eliminando obstáculos y distracciones innecesarias, se crea un camino claro para que los usuarios completen acciones deseadas, como realizar una compra o registrarse en un servicio.",
+      "da3": "Una experiencia de usuario positiva aumenta la confianza del usuario y la probabilidad de conversión, lo que se traduce en más ventas y clientes satisfechos.",
+      "tb1": "Atrae",
+      "tb2": "y",
+      "tb3": "reten",
+      "tb4": "clientes",
+      "db1": "Una experiencia de usuario agradable y fácil de usar es fundamental para atraer nuevos clientes y retener a los existentes. Cuando un sitio web o una aplicación ofrece una navegación intuitiva, un diseño atractivo y funcionalidades útiles, los usuarios están más inclinados a interactuar con la marca y a volver en el futuro.",
+      "db2": "La facilidad de uso y la satisfacción del usuario aumentan la lealtad a la marca, lo que se traduce en relaciones a largo plazo con los clientes y un crecimiento constante del negocio.",
+      "tc1": "Diferenciación",
+      "tc2": "competitiva",
+      "dc1": "Ofrecer una experiencia superior a la de la competencia es una estrategia efectiva para diferenciarse y destacar en el mercado. Cuando una marca prioriza la usabilidad, el diseño y la satisfacción del usuario, crea un valor añadido que la distingue de los competidores.",
+      "dc2": "Los usuarios están más inclinados a elegir una marca que les ofrezca una experiencia positiva y memorable, lo que ayuda a captar y retener clientes.",
+      "td1": "Iteración y",
+      "td2": "mejora continua",
+      "dd1": "Creemos en la importancia de la iteración y la mejora continua en el diseño UI/UX. No nos conformamos con la primera versión. En cambio, nos comprometemos a través de un proceso iterativo en el que refinamos y mejoramos constantemente el diseño en función del feedback de los usuarios y los resultados de las pruebas.",
+      "dd2": "Cada versión de nuestro producto es sometida a rigurosas pruebas y evaluaciones. Analizamos los comentarios de los usuarios, identificamos áreas de mejora y realizamos ajustes necesarios para garantizar que el producto final cumpla con las expectativas y necesidades del mercado."
+    }
+  },
+  "strategies": {
+    "intro": {
+      "title1": "ESTRATEGIAS DE",
+      "title2": "NEGOCIOS",
+      "desc1": "El servicio de estrategia de producto enfocado al desarrollo de software se enfoca en diseñar y ejecutar planes para la creación y mejora de productos digitales. Se trata de analizar el mercado y las necesidades de los usuarios, definir objetivos claros, desarrollar productos con un enfoque centrado en el usuario y gestionar todo su ciclo de vida, desde la concepción hasta la optimización continua.",
+      "desc2": "Estas estrategias cubren aspectos como investigación de mercado, diseño de experiencia de usuario (UX/UI), planificación ágil de proyectos, implementación de prácticas de desarrollo de calidad y gestión de lanzamientos y actualizaciones. El servicio de estrategia de producto busca maximizar el valor y el impacto de los productos de software, asegurando su relevancia, usabilidad y competitividad en el mercado."
+    }
+  },
+  "strategyService": {
+    "s1": {
+      "slogan": "Nos adaptamos a ti.",
+      "title": "Facilidad de adaptación a tus necesidades.",
+      "desc1": "Entendemos que cada proyecto es único y puede evolucionar con el tiempo. Es por eso que nuestras estrategias de productos están diseñadas para ser flexibles, lo que nos permite ajustar el desarrollo de acuerdo con sus requisitos cambiantes. Con nosotros, obtienes soluciones que crecen contigo."
+    },
+    "s2": {
+      "slogan": "Incrementa tus ganancias.",
+      "title": "Optimización de costes y recursos.",
+      "desc1": "Sabemos lo importante que es gestionar eficientemente tus recursos. Nuestras estrategias están enfocadas a maximizar el valor de su inversión. Te ayudamos a evitar gastos innecesarios y optimizar tus recursos, garantizando que cada peso invertido se traduzca en resultados tangibles y duraderos."
+    },
+    "s3": {
+      "slogan": "Código profesional.",
+      "title": "Reducción de tiempos de desarrollo.",
+      "desc1": "En un mundo donde el tiempo es oro, sabemos que cada día cuenta. Nuestras estrategias están diseñadas para acelerar el proceso de desarrollo, entregando productos de alta calidad en tiempo récord. Con nosotros, puede llegar al mercado más rápido, manteniendo la calidad y precisión que sus clientes esperan."
+    },
+    "s4": {
+      "slogan": "Datos seguros.",
+      "title": "Máxima seguridad y fiabilidad.",
+      "desc1": "La seguridad de sus datos y la confiabilidad de sus sistemas son nuestras prioridades. Implementamos las más estrictas medidas de seguridad y calidad en cada etapa del proceso de desarrollo. Con nosotros, puede estar seguro de que sus productos están protegidos contra amenazas y son altamente confiables para sus usuarios."
+    }
+  },
+  "strategyCounter": {
+    "c1": "de reducción en costos operativos.",
+    "c2": "en la tasa de conversión de leads a clientes.",
+    "c3": "en el tiempo de comercialización de nuevos productos."
+  },
+  "privacy": {
+    "title": "Aviso de privacidad",
+    "p1": "De conformidad con lo establecido en la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, ",
+    "p2": "pone a su disposición el siguiente aviso de privacidad.",
+    "p3": "es el responsable del uso y protección de sus datos personales, en este sentido y en cumplimiento de las obligaciones legales establecidas en la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, a través de este instrumento se informa a los titulares de los datos. datos, la información que de ellos se recoge y las finalidades que se le darán a dicha información.",
+    "p4": "Sumado a lo anterior, le informamos que ",
+    "p5": "tiene su domicilio ubicado en:",
+    "p6": "Los datos personales que recopilamos de usted serán utilizados para las siguientes finalidades, que son necesarias para establecer nuestra relación con usted, así como para cumplir con los servicios y/o pedidos que solicite:",
+    "p7": "Comunicación directa",
+    "p8": "Atención personalizada",
+    "p9": "Notificaciones sobre actualizaciones, novedades, promociones y/o informar sobre mejoras",
+    "p10": "Para llevar a cabo las finalidades descritas en este aviso de privacidad, utilizaremos los siguientes datos personales:",
+    "p11": "Cookies",
+    "p12": "Local Storage",
+    "p13": "Nombre",
+    "p14": "Teléfono",
+    "p15": "Correo electrónico",
+    "p16": "Nombre de la empresa o negocio",
+    "p17": "Por otro lado, le informamos que sus datos personales no serán compartidos con ninguna autoridad, empresa, organización o persona distinta a nosotros y serán utilizados exclusivamente para los fines indicados.",
+    "p18": "Usted tiene en todo momento derecho a saber qué datos personales tenemos sobre usted, para qué los utilizamos y las condiciones de uso que les damos (Acceso). Asimismo, es su derecho solicitar la corrección de su información personal si se encuentra desactualizada, inexacta o incompleta (Rectificación); Asimismo, usted tiene derecho a que su información sea eliminada de nuestros registros o bases de datos cuando considere que no está siendo utilizada adecuadamente (Cancelación); así como oponerse al uso de sus datos personales para fines específicos (Oposición). Estos derechos se conocen como derechos ARCO.",
+    "p19": "Para ejercer cualquiera de los derechos ARCO, deberá presentarse la solicitud respectiva a través de la siguiente dirección de correo electrónico:",
+    "p20": "Lo anterior también servirá para conocer el procedimiento y requisitos para el ejercicio de los derechos ARCO, sin embargo, la solicitud para ejercer estos derechos deberá contener la siguiente información:",
+    "p21": "Nombre",
+    "p22": "Correo electrónico",
+    "p23": "Empresa o negocio",
+    "p24": "La respuesta a la solicitud se dará dentro del siguiente plazo: 3 a 5 días hábiles, y se comunicará de la siguiente manera:",
+    "p25": "A través del correo electrónico indicado",
+    "p26": "Los datos de contacto de la persona o departamento de datos personales, que está a cargo de dar trámite a las solicitudes de derechos ARCO, son los siguientes:",
+    "p27": "a) Nombre del responsable",
+    "p28": "b) Dirección",
+    "p29": "c) Teléfono",
+    "p30": "d) Otros medios de contacto",
+    "p31": "Cabe mencionar que en cualquier momento usted podrá revocar su consentimiento para el uso de sus datos personales. Asimismo, podrá revocar el consentimiento que, en su caso, nos haya otorgado para el tratamiento de sus datos personales. Asimismo, debes considerar que para determinadas finalidades la revocación de tu consentimiento supondrá que no podremos seguir prestándote el servicio que nos solicitaste, ni la conclusión de tu relación con nosotros.",
+    "p32": "Para revocar el consentimiento que usted otorga en este acto o limitar su divulgación, deberá presentar la solicitud respectiva a través de los formularios que estarán a su disposición en:",
+    "p33": "Asimismo, podrá solicitar información para conocer el procedimiento y requisitos para revocar el consentimiento, así como limitar el uso y divulgación de su información personal, sin embargo, estas solicitudes deberán contener la siguiente información:",
+    "p34": "Nombre",
+    "p35": "Correo electrónico",
+    "p36": "Razón",
+    "p37": "La respuesta a la solicitud de revocación o limitación de divulgación de sus datos se dará a más tardar dentro del siguiente plazo: 2 a 3 días hábiles, y se comunicará de la siguiente manera:",
+    "p38": "Correo electrónico",
+    "p39": "De cambios en nuestro modelo de negocio, o por otras razones, por lo que nos comprometemos a mantenerlo informado sobre los cambios que pueda sufrir este aviso de privacidad, sin embargo, puede solicitar información sobre si ha sufrido algún cambio a través de la siguiente dirección de correo electrónico:",
+    "lastUpdate": "Última actualización:"
+  },
+  "notFound": {
+    "title": "¡Ups! Página no encontrada",
+    "desc": "Lo sentimos, no pudimos encontrar la página que buscabas."
+  },
+  "socialProof": {
+    "title1": "Construimos",
+    "title2": "soluciones",
+    "title3": "con comentarios de",
+    "title4": "personas reales",
+    "comms": {
+      "krissa": "Estamos encantados con los resultados obtenidos. Codeli Studio entendió nuestras necesidades y las convirtió en una web que cumple con todos los requerimientos simplificando nuestros procesos internos. ¡Gracias!",
+      "glam": "Codeli Studio no solo desarrolló un sitio web increíble para nosotras, sino que también nos brindó el apoyo continuo que necesitábamos. Nuestro sitio web ahora no solo es visualmente atractivo, sino también increíblemente funcional",
+      "cons": "",
+      "heter": "",
+      "nox": "La consultoría de desarrollo web fue clave para el éxito de nuestro proyecto. Con su enfoque estratégico y detallado el equipo de Codeli Studio hizo que el proceso de desarrollo web fuera sencillo y efectivo."
+    }
+  },
+  "contact": {
+    "email0": "¡Tu mensaje fue enviado con éxito!",
+    "email1": "Te confirmamos que tu mensaje fue enviado correctamente. Nos Comunicaremos contigo lo antes posible.",
+    "email2": "No es necesario que respondas este email.\nPara cualquier duda o aclaración envia un correo a:",
+    "email3": "O envíanos un mensaje a WhatsApp desde nuestro sitio web.",
+    "email4": "Ir a Codeli Studio",
+    "sent": "Tu mensaje fue enviado",
+    "sentError": "Ups, algo salió mal al enviar el mensaje. Por favor, contacta con nosotros vía WhatsApp o envía un email a"
+  },
+  "ERROR": {
+    "something": "Algo salió mal, por favor, intentalo otra vez",
+    "conn": "Error de conexión: revisa tu conexión a internet"
+  },
+  "last.dummy": "dummy translation"
+}

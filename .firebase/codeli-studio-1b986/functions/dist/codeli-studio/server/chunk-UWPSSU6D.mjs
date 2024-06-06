@@ -1,0 +1,2 @@
+import './polyfills.server.mjs';
+import{d as n}from"./chunk-VR73UYEM.mjs";import{X as r,ba as i}from"./chunk-GPB6YLZS.mjs";var l=(()=>{let t=class t{constructor(){this.navigate=i(n)}goTo(e){console.log("#ROUTE:",e),setTimeout(()=>{this.navigate.navigate([e]).then()},500)}};t.\u0275fac=function(a){return new(a||t)},t.\u0275prov=r({token:t,factory:t.\u0275fac,providedIn:"root"});let o=t;return o})();export{l as a};

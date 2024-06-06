@@ -1,0 +1,1 @@
+import{c as n}from"./chunk-NSOVWYZC.js";import{aa as r,ga as i}from"./chunk-WUFZEOXI.js";var l=(()=>{let t=class t{constructor(){this.navigate=i(n)}goTo(e){console.log("#ROUTE:",e),setTimeout(()=>{this.navigate.navigate([e]).then()},500)}};t.\u0275fac=function(a){return new(a||t)},t.\u0275prov=r({token:t,factory:t.\u0275fac,providedIn:"root"});let o=t;return o})();export{l as a};

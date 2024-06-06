@@ -1,0 +1,548 @@
+{
+  "Common": {
+    "learnMore": "Learn more"
+  },
+  "HeaderMain": {
+    "title": "Your vision, our mission",
+    "t1": "We create amazing",
+    "t2A": "experiences",
+    "t2B": "solutions",
+    "t2C": "innovations",
+    "t2D": "products",
+    "t2E": "strategies",
+    "t2F": "designs",
+    "t2G": "software",
+    "t3": "that capture the unique essence of your business",
+    "desc": "We are more than developers; We are partners that will help you forge the success of your vision, dedicated to giving tangible form to your ideas, taking care of every detail of the process.",
+    "continue": "Continue",
+    "contactUs": "Contact us",
+    "checkApproach": "Check our process"
+  },
+  "Clients": {
+    "title1": "Some of our",
+    "title2": "customers"
+  },
+  "About": {
+    "header": {
+      "title1": "We want to help you achieve your",
+      "title2": "business goals",
+      "desc": "At Codeli Studio, our team of experts works closely with you to understand your challenges and develop digital solutions that exceed your expectations."
+    },
+    "us": {
+      "title": "Why us?",
+      "desc1": "We believe technology is a powerful tool that can transform businesses and improve lives. Therefore, we focus on understanding the specific needs of each client and developing personalized solutions that help them achieve their goals.",
+      "desc2": "We have a team of highly qualified experts with extensive experience in a variety of industries. We are constantly up to date with the latest technology trends and use best practices to ensure our clients receive cutting-edge solutions.",
+      "t1": "Comprehensive range of solutions",
+      "d1": "After examining deeply about your business model we come up with a varied and comprehensive range of solutions in a most affordable range.",
+      "t2": "Customized solution",
+      "d2": "We provide customised solutions and services based on the problems and defaults in your business and make you extract the most from it.",
+      "t3": "Committed deadlines",
+      "d3": "We deliver your projects on time, without exceptions, working with agile methodologies that guarantee punctual deliveries and adaptability to changes. We commit to you and keep you informed of the progress of the project at each stage.",
+      "t4": "Flexible and economical model",
+      "d4": "We adapt to your needs and budget. We offer different work models so you can choose the one that best suits your project. We guarantee you an excellent quality-price ratio."
+    }
+  },
+  "approach": {
+    "title": "In everything we do, we",
+    "title_span_1": "prioritize attention",
+    "title_2": "and",
+    "title_span_2": "care",
+    "title_3": "in every detail.",
+    "desc": "We constantly question the reason behind every decision and are willing to dig deep to find the most efficient, impactful and, above all, relevant way to move your business forward.",
+    "strategic_approach": "Strategic approach",
+    "subtitle_first": "First",
+    "title_first": "Discovery",
+    "resume_first": "Every design and development project begins with truly understanding the 'Why?' of the business. Together, we identify those goals and then apply our experience to find realistic solutions.",
+    "subtitle_second": "Then",
+    "title_second": "What is needed?",
+    "resume_second": "After setting goals and design, comes the strategy. We co-create this strategy together, researching your user stories and data, the necessary plan and timeline.",
+    "subtitle_third": "Finally",
+    "title_third_1": "Let's",
+    "title_third_2": "build",
+    "resume_third": "Only until the design and strategies, scope and needs are established, do we begin development. We execute proofs of concept, minimum viable product and launch ready for production"
+  },
+  "_approach": {
+    "subtitle": "Definition of goals.",
+    "title1": "We are not only dedicated to the development of",
+    "title2": "web",
+    "title3": "and",
+    "title4": "mobile",
+    "title5": "applications",
+    "desc": "We immerse ourselves in the very essence of each project, deeply understanding the objectives and visions of our clients."
+  },
+  "strategic": {
+    "title1": "STRATEGIC",
+    "title2": "APPROACH",
+    "desc": "Since our inception, we have strived to maintain a culture of collaboration, creativity and excellence in everything we do. We value every project, big or small, as an opportunity to push the boundaries of innovation and make a real difference."
+  },
+  "_approachCards": {
+    "subtitle": "",
+    "title1": "Discover the",
+    "title2": "core",
+    "title3": "of your Company",
+    "desc": "At Codeli Studio, each project starts with an essential question: What is the purpose behind your business? We immerse ourselves in the essence of your company, identify clear goals and apply our experience to offer you concrete and effective solutions.",
+    "desc_a": "Discovery Sessions to fully explore your goals.",
+    "desc_b": "Technological Audits and Design to establish a solid foundation.",
+    "desc_c": "Coordination between all interested parties for a unified strategy.",
+    "desc_d": "Precise definition of goals to guarantee measurable results."
+  },
+  "_approachCards2": {
+    "desc": "Based on our understanding of your business, we create customized strategies that align with your goals. We define the architecture and technologies that best suit your needs, and establish a detailed work plan to optimize the development process.",
+    "desc_a": "Discovery Sessions to fully explore your goals.",
+    "desc_b": "Technological Audits and Design to establish a solid foundation.",
+    "desc_c": "Coordination between all interested parties for a unified strategy.",
+    "desc_d": "Precise definition of goals to guarantee measurable results."
+  },
+  "_approachCards3": {
+    "desc": "We bring your vision to life with a seamless launch, ensuring your solution runs smoothly and meets your expectations. We establish regular maintenance windows to ensure your software is always up to date and running at peak performance.",
+    "desc_a": "We implement the solution in your production environment.",
+    "desc_b": "We closely monitor solution performance and provide ongoing technical support.",
+    "desc_c": "We deploy regular updates to improve performance, add new features, and fix bugs."
+  },
+  "Toolbar": {
+    "home": "Home",
+    "about": "About us",
+    "blog": "Blog",
+    "login": "Login",
+    "contact": "Contact",
+    "tooltipTheme": "Change theme",
+    "tooltipLanguage": "Change language",
+    "dashboard": "Dashboard",
+    "letsStart": "Let´s get start",
+    "portfolio": "Portfolio",
+    "planning": "Planning - Approach",
+    "dev_web": "Web development",
+    "strategy": "Product strategy",
+    "consulting": "Consultancy",
+    "english": "English",
+    "spanish": "Spanish",
+    "services": "Services"
+  },
+  "Footer": {
+    "workInTogether": "Let’s work in together",
+    "desc": "At Codeli Studio, we are committed to offering you top-level programming and consulting solutions. We believe that collaboration is the key to success, which is why we invite you to work together on your next project.",
+    "services": "Services",
+    "resources": "Resources",
+    "company": "Company",
+    "cta": "Find out how we can help you",
+    "privacity": "Privacy"
+  },
+  "Contact": {
+    "title": "",
+    "desc": "Send our team a quick message with your question, project ideas and we’ll get back to you as soon as possible. We’are pretty responsive and will try to respond in a few hours",
+    "ann1": "Contact us and",
+    "nameLabel": "Your name",
+    "nameHint": "",
+    "emailLabel": "Your email or phone",
+    "emailHint": "",
+    "whatsLabel": "Contact by WhatsApp?",
+    "serviceLabel": "Select the services that interest you",
+    "commentsHint": "Comments...",
+    "btn": "Send message",
+    "required": "Required field",
+    "notAvailableDate": "Date not available",
+    "notAvailableDateDesc1": "It appears that your meeting date and time are not available.",
+    "notAvailableDateDesc11": "However, we find the date:",
+    "notAvailableDateDesc2": "available.",
+    "notAvailableDateDesc3": "Do you want to continue with this date?",
+    "changeDate": "Change meeting date",
+    "eventCreate": "Your event has been created. Take a look at your Google Calendar.",
+    "eventCreateError": "Your event has been created. Take a look at your Google Calendar."
+  },
+  "WebDev": {
+    "title": "Are you tired of generic solutions that don't meet the specific needs of your business?",
+    "desc": "We believe that every organization has its own challenges and opportunities, so there is no one-size-fits-all solution. Our focus is not just on developing software, but on creating custom solutions that perfectly fit your company's unique needs. personalized that adapt perfectly to your needs.",
+    "subTitleWebDev": "Custom-built",
+    "WebDevTitle": "We create websites, web applications and e-commerce stores that fit your brand, your target audience and your specific workflows.",
+    "branding": "Increase your online presence and strengthen your brand.",
+    "ux": "Improve user experience and increase conversions.",
+    "automation": "Automate processes and optimize your workflow.",
+    "profits": "Reduce costs and increase your profitability.",
+    "market": "Get a competitive advantage in your market."
+  },
+  "_WebDev": {
+    "slogan": "Your business everywhere.",
+    "title1": "We go beyond development: we offer comprehensive solutions, fusing",
+    "title2": "innovative design",
+    "title3": "with",
+    "title4": "exceptional functionality",
+    "desc1": "From clear scope definition to effective budget management, our methodology guarantees met objectives, exceptional quality, respected deadlines and controlled budgets.",
+    "titleIntroduce1": "WEB",
+    "titleIntroduce2": "DEVELOPMENT",
+    "descIntroduce": "Web development is the key to solving daily business challenges in the digital world. We create exceptional web experiences that improve visibility, engagement and business results. Increase your online presence and stand out from the competition with our expert approach to web development."
+  },
+  "_WebDesign": {
+    "slogan": "Living ideas",
+    "title1": "Our",
+    "title2": "passion",
+    "title3": "for design and",
+    "title4": "development",
+    "title5": "is reflected in each project",
+    "desc1": "creating memorable user experiences. From clear scope definition to effective budget management, our methodology guarantees met objectives, exceptional quality, respected deadlines and controlled budgets.",
+    "descIntroduce": ""
+  },
+  "_WebStrategy": {
+    "slogan": "Real results",
+    "title1": "More than just coding, we focus on",
+    "title2": "tangible results",
+    "title3": ", transforming visions into",
+    "title4": "realities",
+    "desc1": "We analyze the market and its needs, define clear objectives, develop products with a user-centered approach, and manage the process, from conception to continuous optimization.",
+    "descIntroduce": ""
+  },
+  "_WebConsulting": {
+    "slogan": "Transform your vision",
+    "title2": "Specialized consulting",
+    "title3": "in web development and maintenance",
+    "desc1": "We help our clients towards meeting their goals. We focus on each client individually, tailoring our solutions to their specific needs, goals and vision.",
+    "descIntroduce": ""
+  },
+  "Consulting": {
+    "intro": {
+      "title1": "Support &",
+      "title2": "Consulting",
+      "desc1": "At Codeli Studio we understand that web development is a complex process that requires experience, detailed planning and precise execution. That's why we offer web development consulting services designed to guide you through every stage of the project. Whether you are starting a new project or looking to improve an existing one, our consulting provides you with the knowledge and strategies necessary to achieve your goals.",
+      "desc2": "The consulting process begins with a thorough assessment of your needs and objectives. We analyze your current situation and propose personalized solutions aligned with your business objectives. Throughout the project, we accompany you in the planning, design, development and implementation, ensuring that each phase is executed with precision and effectiveness."
+    }
+  },
+  "ConsultingService": {
+    "subtitle": "Consulting service",
+    "title": "We offer consulting for companies of all sizes.",
+    "desc": "There are many consulting companies that will tell you what to do to make your company more profitable. At Codeli we not only offer you professional and creative advice, but we also value your ideas and suggestions.",
+    "q1": "How can we help you?",
+    "i1a": "Definition of objectives and strategy:",
+    "i1b": "We help you clearly define the objectives of your project.",
+    "i2a": "Analysis of your business:",
+    "i2b": "We carry out a complete analysis of your business to identify the specific needs of your project.",
+    "i3a": "Selection of the appropriate technology:",
+    "i3b": "We advise you on the selection of technologies taking into account your budget, your needs and your objectives.",
+    "i4a": "Architecture and web design:",
+    "i4b": "We design the architecture and create an attractive and functional design that adapts to the needs.",
+    "i5a": "Development and testing:",
+    "i5b": "We inform you about industry best practices as well as exhaustive testing to guarantee the launch of your project.",
+    "i6a": "Deployment and maintenance:",
+    "i6b": "Deploy your project to a production environment and offer ongoing maintenance services to ensure your project runs smoothly."
+  },
+  "ConsultingCount": {
+    "m1": "operational efficiency with automation solutions.",
+    "m2": "reduction in costs through migration to the cloud.",
+    "m3": "of income generated by the introduction of new technologies."
+  },
+  "ConsultingNeeds": {
+    "t1": "Understanding your business needs.",
+    "d1": "Analyzing your business needs is very important. It's like a bridge between your sales goals and the developers, making sure your needs and wants are properly understood and met.",
+    "t2": "Making your processes more efficient.",
+    "d2": "Automating your business processes is key to successful growth. Our consultants will help you make your processes more efficient and less expensive, giving you valuable advice on what software to use to improve your operation and reduce expenses.",
+    "t3": "Optimizing your computer architecture.",
+    "d3": "Computer architecture can be complicated, but we make sure that your internal and external processes are as effective as possible. Trust our experience to reduce costs and improve the efficiency of your company.",
+    "t4": "Continuous and quality support.",
+    "d4": "Our work does not end when the project is complete. We are always available to help you, even after a long time of working together."
+  },
+  "ConsultingUs": {
+    "title": "Why choose us?",
+    "desc": "At Codeli Studio, we know that the success of your web project depends on strategic planning, precise execution and the experience of an expert team. For this reason, we offer you comprehensive consulting that ranges from defining objectives to the ongoing maintenance of your website.",
+    "reasons": {
+      "t1": "Team of experts:",
+      "d1": "We have a team of web development, graphic design and digital marketing experts with extensive experience in a variety of industries.",
+      "t2": "Agile Methodology:",
+      "d2": "We use agile development methodologies to ensure that your project stays within the established budget and schedule.",
+      "t3": "Customer-centric approach:",
+      "d3": "We focus on understanding your specific needs and objectives to develop a customized solution for your business.",
+      "t4": "Effective communication:",
+      "d4": "We maintain open and transparent communication with you throughout the development process.",
+      "t5": "Commitment to quality:",
+      "d5": "We are committed to delivering a high-quality website that meets your expectations."
+    }
+  },
+  "WDesign": {
+    "subTitleWDesign": "Unique experiences",
+    "title": "Web design",
+    "desc": "We firmly believe that web design is not just about aesthetics, but about creating unique experiences. Our focus is not on creating an extension of your brand that effectively conveys your message."
+  },
+  "features": {
+    "title1": "Everything you need,",
+    "title2": "Nothing you don't.",
+    "desc": "We focus on understanding your specific needs and objectives to develop tools that optimize your processes, strengthen your brand and differentiate you in the market.",
+    "tCard1": "Exponential growth",
+    "dCard1": "Customized solutions that boost your results. Watch your business take off with our data-driven strategies.",
+    "tCard2": "Solutions tailored to you",
+    "dCard2": "We create tools that adapt to your needs, from mobile applications to websites and web services to connect with your target audience in an innovative way.",
+    "tCard3": "Continuous improvement",
+    "dCard3": "Transparency and collaboration in every step of the process. We keep you informed with a detailed record of the evolution of your project."
+  },
+  "simpleApproach": {
+    "card1subtitle": "Discovery",
+    "card1title1": "Understanding your",
+    "card1title2": "business",
+    "card1title3": "your",
+    "card1title4": "vision",
+    "card1title5": "and your",
+    "card1title6": "challenges",
+    "card2subtitle": "What is needed?",
+    "card2title1": "Designing the",
+    "card2title2": "perfect solution",
+    "card2title3": "for you",
+    "card3subtitle": "Finally",
+    "card3title1": "Launch, maintenance and",
+    "card3title2": "continuous improvement"
+  },
+  "strength": {
+    "title1": "Collaboration.",
+    "desc1": "In our team we value collaboration and teamwork. We believe in the importance of joining forces and sharing knowledge to achieve common goals and overcome technical challenges effectively.",
+    "title2": "Adaptability.",
+    "desc2": "In a constantly evolving technological environment, adaptability is essential. We are committed to remaining flexible and open to change, adjusting our strategies and processes according to project needs and market demands.",
+    "title3": "Innovation.",
+    "desc3": "Innovation is the engine of our success. We strive to find new and better ways to solve problems, using cutting-edge technologies and adopting agile development practices to deliver high-quality, innovative solutions to our clients.",
+    "title4": "Empathy.",
+    "desc4": "We understand that behind every line of code there is a person. We strive to practice empathy in our work, putting ourselves in the shoes of our customers and end users to understand their needs and create solutions that truly add value.",
+    "title5": "Commitment to excellence.",
+    "desc5": "At our company, we are committed to excellence in everything we do. From planning and design to development and implementation, we strive for perfection every step of the process, constantly seeking to improve and exceed our customers' expectations."
+  },
+  "metrics": {
+    "subtitle": "Let's work together",
+    "resumeT": "Stop wasting time and let's build something amazing.",
+    "resumeD": "We constantly question the reason behind every decision, and we are willing to explore deeply to find the most efficient, impactful and, above all, relevant way to advance your business.",
+    "metric1": "Client retention",
+    "metric2": "Years of service",
+    "metric3": "Programming technologies",
+    "metric4": "Satisfied customers"
+  },
+  "vision": {
+    "subtitle": "The next step...",
+    "title1": "Transform your",
+    "title2": "vision",
+    "title3": "in a",
+    "title4": "reality",
+    "soft": "Custom software development",
+    "softDesc": "We create software that fits your specific workflows, processes and objectives, maximizing your efficiency and productivity.",
+    "QA": "Quality control and testing",
+    "QADesc": "We implement rigorous testing and quality assurance methodologies to ensure your software runs smoothly and meets the highest standards.",
+    "UX": "UX/UI Design",
+    "UXDesc": "We develop visually attractive interfaces that reflect your brand identity and capture the attention of your target audience.",
+    "App": "Mobile application development",
+    "AppDesc": "We create mobile applications that allow you to reach your target audience wherever they are, expanding your reach and strengthening your presence in the market."
+  },
+  "alliances": {
+    "title": "Creating global alliances",
+    "title2": "Global perspective",
+    "desc": "At Codeli Studio, we believe that success is not limited to borders. For this reason, we forge strategic alliances with leading companies around the world to offer you technological solutions by collaborating with the best developers, designers and experts."
+  },
+  "technos": {
+    "title": "We create solid and reliable software using the most advanced technologies."
+  },
+  "portfolio": {
+    "title": "Discover how we transform ideas into digital successes:",
+    "title2": "Our Portfolio",
+    "desc": "In our portfolio, we invite you to immerse yourself in a world of innovation and digital excellence. From startups to established companies, we have had the privilege of collaborating with a wide range of clients, helping them turn their visions into reality.",
+    "glam1": "We are proud to present our latest project, a comprehensive solution for the world of Nail-Art. From the creation of a captivating landing page that invites you to explore the universe of beauty in your hands, to the development of a robust web-app to manage inventories and manage logistics efficiently.",
+    "glam2": "With careful integration of easy-to-use e-commerce, we have facilitated the shopping experience for both professionals and the general public, offering a wide range of products from leading brands and exceptional beauty services.",
+    "glam3": "This project has not only been a technical challenge, but also an opportunity to merge creativity with functionality, creating a digital experience that reflects the beauty and elegance of the world of Nail-Art. We are excited to have collaborated on this project and eager to bring this same passion and excellence to future companies seeking to stand out in the digital world.",
+    "nox1": "We developed a comprehensive event planning platform designed to make organizing social events easier, more efficient, and more exciting than ever. Our solution combines a captivating landing page, an intuitive web-app for event management and customizable software as a service (SaaS) that offers a complete experience from initial inspiration to event execution.",
+    "nox2": "We created an impressive landing page that captivates visitors from the first moment. With a modern design, captivating images and a clear and persuasive message.",
+    "nox3": "Our event management web-app is the perfect tool to plan, organize and execute events efficiently. With features like guest management, event agenda, task tracking, and vendor management, our web-app facilitates every aspect of the planning process, allowing our users to focus on what really matters: creating unforgettable experiences for them and their guests.",
+    "mConsc1": "At our agency, we are proud to offer comprehensive solutions to transform our clients' online presence. Recently, we developed a powerful landing page for Mas Conciencia, a startup dedicated to improving the financial and spiritual health of its clients.",
+    "mConsc2": "In addition to designing an attractive and functional website, we implement advanced tools such as an appointment scheduling system and an automated email sending system.",
+    "mConsc3": "This project not only improved Mas Conciencia's online visibility, but also optimized their internal processes, allowing them to efficiently manage their appointments and communicate effectively with their audience. If you are looking for a complete and effective solution for your online business, we can help you achieve your goals!",
+    "heter1": "We developed a landing page for Heter Group, a company specialized in industrial recruitment. We simplify the hiring process for both companies and personnel, offering an efficient and direct experience. With the latest version of Angular, we optimize speed and SEO using SSR, deploying the site to Firebase for improved accessibility.",
+    "heter2": "The collaboration with Heter Group allowed us to develop a landing page specifically designed to facilitate the recruitment process in the industrial sector. With a focus on simplicity and efficiency, we created a landing page that makes both companies and candidates feel comfortable and supported every step of the way.",
+    "heter3": "We implement an intuitive interface that allows you to learn about and hire Heter Group services quickly and without complications. Smooth navigation and clear options ensure they can access the services they need with ease. Additionally, we created a minimalist digital business card for candidates, offering a quick and complete overview of their profile and relevant social media links. Our choice of Angular allowed us to build a robust and flexible platform that will adapt to future expansion needs.",
+    "features": "Some main features:"
+  },
+  "success": {
+    "subtitle": "Successful projects",
+    "title1": "We always seek to ensure the",
+    "title2": "success",
+    "title3": "of all our projects",
+    "desc1": "Discover how we ensure success in every web development project. From clear scope definition to effective budget management, our methodology guarantees met objectives, exceptional quality, respected deadlines and controlled budgets.",
+    "cTitle1": "Clear definition of the project scope.",
+    "cDesc1": "It is essential to have a complete understanding of what you hope to achieve with the project and set clear boundaries to avoid deviations and ensure objectives are met.",
+    "cTitle2": "Effective budget management.",
+    "cDesc2": "It is essential to make an accurate estimate of project costs and properly manage available financial resources to avoid cost overruns.",
+    "cTitle3": "Continuous quality control.",
+    "cDesc3": "Implementing a quality control process from the beginning of the project to its completion is essential to ensure that the final product meets the expected quality standards and meets the needs of users.",
+    "cTitle4": "Effective communication and collaboration.",
+    "cDesc4": "Encouraging open and transparent communication between all team members and stakeholders is key to ensuring everyone is aligned on project goals, requirements, and deadlines.",
+    "cTitle5": "Planning and risk management.",
+    "cDesc5": "Proactively identifying and managing potential risks and obstacles that may arise during project development is essential to minimize their impact on the schedule and the final result."
+  },
+  "webServices": {
+    "lp": {
+      "slogan": "Expand your reach",
+      "desc1": "A landing page is a web page designed specifically to convert visitors into leads or leads. It is a key element in any small business's digital marketing strategy.",
+      "desc2": "A well-designed landing page can capture your visitors' attention and motivate them to provide contact information, turning them into potential customers for your business.",
+      "desc3": "This is a powerful tool for small businesses that want to increase their conversions and improve their online presence, as well as being a great option for new businesses.",
+      "mTitle": "Attract new clients",
+      "mDesc": "and improve your income"
+    },
+    "eCom": {
+      "slogan": "Maximize your productivity",
+      "desc1": "An E-commerce is an online platform that allows users to buy and sell products or services electronically.",
+      "desc2": "With e-commerce, you can reach potential customers around the world, breaking geographic barriers and expanding the reach of your business. In addition, its availability is 24 hours a day, 7 days a week.",
+      "desc3": "You will be able to offer a personalized shopping experience to your customers, recommending relevant products, offering exclusive promotions and facilitating navigation by categories and filters.",
+      "mTitle": "Optimize processes",
+      "mDesc": "increases your efficiency."
+    },
+    "ws": {
+      "slogan": "Internal collaboration",
+      "desc1": "A comprehensive website provides a solid platform to present your business professionally and offer detailed information about your products or services. A complete website allows you to integrate additional tools and functionality, such as subscription forms, live chat, e-commerce, and much more.",
+      "desc2": "A full website is an online platform that encompasses multiple pages and functionalities to promote a business or brand comprehensively.",
+      "mTitle": "Strengthens customer loyalty",
+      "mDesc": "and encourages retention."
+    },
+    "wa": {
+      "slogan": "Streamlines processes",
+      "desc1": "A web application is a web-based application that is accessed through a web browser and offers functionality similar to that of a mobile or desktop application.",
+      "desc2": "A web application can be accessed from any device with a web browser, allowing users to use the application without downloading or installing additional software.",
+      "desc3": "Web applications run in the cloud, meaning they receive instant updates and improvements to all users, ensuring that your customers will always use the latest version of the web application.",
+      "mTitle": "Automate tasks",
+      "mDesc": "and creates new opportunities."
+    }
+  },
+  "uiux": {
+    "intro": {
+      "desc": "'User Interface' (UI) and 'User Experience' (UX) are about how a web page or application looks and feels, and how users interact with it."
+    },
+    "wireframing": {
+      "subtitle": "Pro design",
+      "title": "Intuitive Wireframing",
+      "desc": "The wireframing process marks the beginning of our focus on UI/UX design. This is where we transform ideas into tangible structures, establishing the foundations for the navigation and functionality of your digital product.",
+      "desc2": "With meticulous attention to detail, we create wireframes that serve as the backbone of the final user interface, ensuring a solid platform for further development."
+    },
+    "design": {
+      "title1": "User-centered",
+      "title2": "design",
+      "desc1": "At Codeli Studio, our UI/UX design approach is based on a deep understanding of user needs and expectations. Each step of the design process is carefully oriented to improve the user experience and facilitate interaction in each project.",
+      "desc2": "Every visual and functional element is created with the user in mind. From the arrangement of elements on the screen to the choice of colors and typography, every detail is carefully designed to ensure an intuitive and satisfying user experience."
+    },
+    "advent": {
+      "ta1": "Improve",
+      "ta2": "conversion",
+      "da1": "A well-thought-out, intuitive design can have a significant impact on a website or app's conversion rates.",
+      "da2": "By making the browsing and purchasing process easier, removing obstacles and unnecessary distractions, you create a clear path for users to complete desired actions, such as making a purchase or signing up for a service.",
+      "da3": "A positive user experience increases user trust and the likelihood of conversion, which translates into more sales and satisfied customers.",
+      "tb1": "Attract",
+      "tb2": "and",
+      "tb3": "retain",
+      "tb4": "customers",
+      "db1": "A pleasant and easy-to-use user experience is essential for attracting new customers and retaining existing ones. When a website or app offers intuitive navigation, attractive design, and useful functionality, users are more inclined to interact with the brand and return in the future.",
+      "db2": "Ease of use and user satisfaction increase brand loyalty, resulting in long-term customer relationships and consistent business growth.",
+      "tc1": "Competitive",
+      "tc2": "differentiation",
+      "dc1": "Offering a superior experience than the competition is an effective strategy to differentiate yourself and stand out in the market. When a brand prioritizes usability, design and user satisfaction, it creates added value that distinguishes it from competitors.",
+      "dc2": "Users are more inclined to choose a brand that offers them a positive and memorable experience, which helps attract and retain customers.",
+      "td1": "Iteration and",
+      "td2": "continuous improvement",
+      "dd1": "We believe in the importance of iteration and continuous improvement in UI/UX design. We are not satisfied with the first version. Instead, we engage through an iterative process in which we constantly refine and improve the design based on user feedback and test results.",
+      "dd2": "Each version of our product is subjected to rigorous testing and evaluation. We analyze user feedback, identify areas for improvement, and make necessary adjustments to ensure the final product meets market expectations and needs."
+    }
+  },
+  "strategies": {
+    "intro": {
+      "title1": "BUSINESS",
+      "title2": "STRATEGIES",
+      "desc1": "The product strategy service focused on software development focuses on designing and executing plans for the creation and improvement of digital products. It involves analyzing the market and user needs, defining clear objectives, developing products with a user-centric approach and managing their entire life cycle, from conception to continuous optimization.",
+      "desc2": "These strategies cover aspects such as market research, user experience (UX/UI) design, agile project planning, implementation of quality development practices, and management of releases and updates. The product strategy service seeks to maximize the value and impact of software products, ensuring their relevance, usability and competitiveness in the market."
+    }
+  },
+  "strategyService": {
+    "s1": {
+      "slogan": "We adapt to you.",
+      "title": "Ease of adaptation to your needs.",
+      "desc1": "We understand that each project is unique and can evolve over time. That's why our product strategies are designed to be flexible, allowing us to adjust development according to your changing requirements. With us, you get solutions that grow with you."
+    },
+    "s2": {
+      "slogan": "Increase your profits.",
+      "title": "Optimization of costs and resources.",
+      "desc1": "We know how important it is to efficiently manage your resources. Our strategies are focused on maximizing the value of your investment. We help you avoid unnecessary expenses and optimize your resources, guaranteeing that every peso invested translates into tangible and lasting results."
+    },
+    "s3": {
+      "slogan": "Professional code.",
+      "title": "Reduction of development times.",
+      "desc1": "In a world where time is money, we know that every day counts. Our strategies are designed to accelerate the development process, delivering high-quality products in record time. With us, you can get to market faster, while maintaining the quality and precision your customers expect."
+    },
+    "s4": {
+      "slogan": "Secure data.",
+      "title": "Maximum security and reliability.",
+      "desc1": "The security of your data and the reliability of your systems are our priorities. We implement the strictest security and quality measures at each stage of the development process. With us, you can be sure that your products are protected from threats and highly reliable for your users."
+    }
+  },
+  "strategyCounter": {
+    "c1": "reduction in operating costs.",
+    "c2": "in the conversion rate of leads to clients.",
+    "c3": "in the time of marketing of new products."
+  },
+  "privacy": {
+    "title": "Notice of privacy",
+    "p1": "In accordance with the provisions of the Federal Law on Protection of Personal Data Held by Private Parties,",
+    "p2": "makes the following privacy notice available to you.",
+    "p3": "is responsible for the use and protection of your personal data, in this sense and in compliance with the legal obligations established in the Federal Law on Protection of Personal Data Held by Private Parties, through this instrument the owners are informed of the data. data, the information that is collected from them and the purposes that will be given to said information.",
+    "p4": "In addition to the above, we inform you that ",
+    "p5": "has its address located at:",
+    "p6": "The personal data we collect from you will be used for the following purposes, which are necessary to establish our relationship with you, as well as to fulfill the services and/or orders you request:",
+    "p7": "Direct communication",
+    "p8": "Personalized attention",
+    "p9": "Notifications about updates, news, promotions and/or inform about improvements",
+    "p10": "To carry out the purposes described in this privacy notice, we will use the following personal data:",
+    "p11": "Cookies",
+    "p12": "Local Storage",
+    "p13": "Name",
+    "p14": "Phone",
+    "p15": "Email",
+    "p16": "Name of the company or business",
+    "p17": "On the other hand, we inform you that your personal data will not be shared with any authority, company, organization or person other than us and will be used exclusively for the indicated purposes.",
+    "p18": "You have at all times the right to know what personal data we have about you, what we use it for and the conditions of use we give it (Access). Likewise, it is your right to request the correction of your personal information if it is outdated, inaccurate or incomplete (Rectification); Likewise, you have the right to have your information deleted from our records or databases when you consider that it is not being used appropriately (Cancellation); as well as oppose the use of your personal data for specific purposes (Opposition). These rights are known as ARCO rights.",
+    "p19": "To exercise any of the ARCO rights, the respective request must be submitted through the following email address:",
+    "p20": "The above will also serve to know the procedure and requirements for the exercise of ARCO rights, however, the request to exercise these rights must contain the following information:",
+    "p21": "Name",
+    "p22": "Email",
+    "p23": "Company or business",
+    "p24": "The response to the request will be given within the following period: 3 to 5 business days, and will be communicated as follows:",
+    "p25": "Through the indicated email",
+    "p26": "The contact details of the person or personal data department, who is in charge of processing ARCO rights requests, are as follows:",
+    "p27": "a) Name of person responsible",
+    "p28": "b) Address",
+    "p29": "c) Phone",
+    "p30": "d) Other means of contact",
+    "p31": "It is worth mentioning that at any time you may revoke your consent for the use of your personal data. Likewise, you may revoke the consent that, where applicable, you have given us for the processing of your personal data. Likewise, you must consider that for certain purposes the revocation of your consent will mean that we will not be able to continue providing you with the service you requested from us, nor will the conclusion of your relationship with us.",
+    "p32": "To revoke the consent that you grant in this act or limit its disclosure, you must submit the respective request through the forms that will be available to you at:",
+    "p33": "Likewise, you may request information to know the procedure and requirements to revoke consent, as well as limit the use and disclosure of your personal information, however, these requests must contain the following information:",
+    "p34": "Name",
+    "p35": "Email",
+    "p36": "Reason",
+    "p37": "The response to the request for revocation or limitation of disclosure of your data will be given no later than within the following period: 2 to 3 business days, and will be communicated as follows:",
+    "p38": "Email",
+    "p39": "Of changes in our business model, or for other reasons, so we are committed to keeping you informed about any changes that this privacy notice may undergo, however, you can request information about whether it has undergone any changes through the following address of e-mail:",
+    "lastUpdate": "Last update:"
+  },
+  "notFound": {
+    "title": "Oops! Page not found",
+    "desc": "Sorry, we couldn't find the page you where looking for"
+  },
+  "socialProof": {
+    "title1": "We are",
+    "title2": "building",
+    "title3": "solutions with feedback from",
+    "title4": "real persons",
+    "comms": {
+      "krissa": "We are delighted with the results obtained. Codeli Studio understood our needs and turned them into a website that meets all requirements, simplifying our internal processes. Thank you!",
+      "glam": "Codeli Studio not only developed an amazing website for us, but also provided us with the ongoing support we needed. Our website is now not only visually appealing, but also incredibly functional",
+      "cons": "",
+      "heter": "",
+      "nox": "Web development consulting was key to the success of our project. With their strategic and detailed approach, the Codeli Studio team made the web development process simple and effective."
+    }
+  },
+  "contact": {
+    "email0": "Message sent successfully!",
+    "email1": "We confirm that your message was sent correctly. We will contact you as soon as possible.",
+    "email2": "You do not need to reply to this email. For any questions or clarifications, send an email to:",
+    "email3": "Or send us a message via WhatsApp from our website.",
+    "email4": "Go to Codeli Studio",
+    "sent": "You message was sent",
+    "sentError": "Ups, something goes wrong sending you message. Please, contact us via WhatsApp or send an email to"
+  },
+  "ERROR": {
+    "something": "Something goes wrong, try again",
+    "conn": "Connection error: Check your internet access"
+  },
+  "last.dummy": "dummy translation"
+}

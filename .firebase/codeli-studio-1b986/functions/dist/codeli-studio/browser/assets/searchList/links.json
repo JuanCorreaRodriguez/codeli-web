@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Codeli Studio",
+    "desc": "We are more than developers; We are partners that will help you forge the success of your vision, dedicated to giving tangible form to your ideas, taking care of every detail of the process",
+    "match": "Page codeli page home web landing scope project management productivity wordpress free freelance price cost target price",
+    "url": ""
+  },
+  {
+    "title": "Web Development",
+    "desc": "From clearly defining the scope to effective budget management, our methodology ensures that goals are met. We specialize in landing pages, project management, and WordPress development.",
+    "match": "web development landing page scope project management productivity wordpress free freelance cost price goal",
+    "url": "web-development"
+  },
+  {
+    "title": "Web Design",
+    "desc": "Creating memorable user experiences. From clearly defining the scope to effective budget management, our team of experienced UI/UX designers will create a website that meets your needs and exceeds your expectations.",
+    "match": "web design UI UX design development wireframing user conversion differentiation templates wordpress user experience graphic",
+    "url": "ui-ux"
+  },
+  {
+    "title": "Agile Approach & Process",
+    "desc": "We immerse ourselves in the very essence of each project, deeply understanding our clients' goals and visions. We use agile methodologies like Scrum and Kanban to ensure flexibility, efficiency, and continuous improvement.",
+    "match": "goal agile methodologies scrum kanban project management software testing CI/CD continuous deployment continuous integration",
+    "url": "approach-landing"
+  },
+  {
+    "title": "Product Strategies",
+    "desc": "We analyze the market and its needs, define clear objectives, develop user-centric products, and manage the process from conception to continuous optimization.",
+    "match": "goal product development competitive analysis product launch product innovation value proposition product roadmap success value",
+    "url": "business-strategies"
+  },
+  {
+    "title": "Portfolio",
+    "desc": "We invite you to immerse yourself in a world of innovation and digital excellence. From startups to established companies, we have a proven track record of success.",
+    "match": "portfolio our work success stories satisfied clients quote offer featured highlights",
+    "url": "portfolio"
+  },
+  {
+    "title": "Consulting",
+    "desc": "We help our clients achieve their goals. We focus on each client individually, adapting our solutions to their specific needs, goals, and vision.",
+    "match": "consulting IT systems custom software IT transformation maintenance renewal innovation consulting",
+    "url": "consulting"
+  },
+  {
+    "title": "Contact Us",
+    "desc": "Send our team a quick message with your question, project ideas, and we will get back to you as soon as possible.",
+    "match": "contact start contacting initiate us information information",
+    "url": "contact-us"
+  },
+  {
+    "title": "Privacy Policy",
+    "desc": "At Codeli Studio, we are committed to protecting your privacy and using your personal data responsibly.",
+    "match": "privacy policy information security personal data protection act user consent transparency protection",
+    "url": "privacy"
+  },
+  {
+    "title": "About Us",
+    "desc": "At Codeli Studio, our team of experts works closely with you to understand your challenges and develop digital solutions that drive real business results.",
+    "match": "who we are mission vision values team social responsibility corporate culture history",
+    "url": "about-us"
+  }
+]

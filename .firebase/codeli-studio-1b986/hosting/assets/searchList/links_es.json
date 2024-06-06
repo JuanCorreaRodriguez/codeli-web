@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Codeli Studio",
+    "desc": "Somos más que desarrolladores; somos socios que te ayudaran a forjar el exito de tu vision, dedicados a dar forma tangible a tus ideas cuidando cada detalle del proceso",
+    "match": "Pagina página codeli inicio web landing alcance gestion proyecto productividad wordpress gratis precio freelance costo precio objetivo",
+    "url": ""
+  },
+  {
+    "title": "Desarrollo web",
+    "desc": "Desde la definición clara del alcance hasta una gestión eficaz del presupuesto, nuestra metodología garantiza objetivos cumplidos....",
+    "match": "Pagina web landing alcance gestion proyecto productividad wordpress gratis precio freelance costo precio objetivo",
+    "url": "web-development"
+  },
+  {
+    "title": "Diseño web",
+    "desc": "creando experiencias de usuario memorables. Desde la definición clara del alcance hasta una gestión eficaz del presupuesto, nuestra...",
+    "match": "Diseño ui ux desarrollo wirefreaming wireframing usuario conversion diferenciacion plantillas wordpress experiencia usuario grafico",
+    "url": "ui-ux"
+  },
+  {
+    "title": "Acercamiento-Proceso (Metodologías ágiles)",
+    "desc": "Nos sumergimos en la esencia misma de cada proyecto, entendiendo profundamente los objetivos y visiones de nuestros clientes",
+    "match": "objetivo metodologías agiles scrum kanban gestion de proyectos pruebas de software CI/CD despliegue continuo integracion continua",
+    "url": "approach-landing"
+  },
+  {
+    "title": "Estrategias de Producto",
+    "desc": "Analizamos el mercado y sus necesidades, definimos objetivos claros, desarrollamos productos con enfoque centrado en el usuario, y gestionamos el proceso, desde la concepción hasta la optimización continua.",
+    "match": "objetivo desarrollo de producto analisis de competencia lanzamiento innvacion de producto propuesta de valor readmap de producto exito valor",
+    "url": "business-strategies"
+  },
+  {
+    "title": "Portafolio",
+    "desc": "En nuestro portafolio, te invitamos a sumergirte en un mundo de innovación y excelencia digital. Desde startups hasta empresas consolidadas...",
+    "match": "portafolio nuestros trabajos casos de exito clientes satisfechos presupuesto ofrecen destacados destacadas",
+    "url": "portfolio"
+  },
+  {
+    "title": "Consultoría",
+    "desc": "Ayudamos a nuestros clientes hacia el cumplimiento de metas. Nos enfocamos en cada cliente individualmente, adaptando nuestras soluciones a sus necesidades, metas y visión específicas.",
+    "match": "consultoria sistemas informatica software a medida IT transformacion mantenimiento renovacion innovacion asesoria ",
+    "url": "consulting"
+  },
+  {
+    "title": "Contactanos",
+    "desc": "Envíe a nuestro equipo un mensaje rápido con su pregunta, ideas de proyectos y nos comunicaremos con usted lo antes posible.",
+    "match": "Contacto empecemos contactar iniciar nosotros informacion información",
+    "url": "contact-us"
+  },
+  {
+    "title": "Privacidad",
+    "desc": "En Codeli Studio, nos comprometemos a proteger tu privacidad y a utilizar tus datos personales de manera responsable.",
+    "match": "politica de privacidad seguridad de informacion ley de proteccion de datos personales consentimiento usuario transparencia proteccion",
+    "url": "privacy"
+  },
+  {
+    "title": "Acerca de nosotros",
+    "desc": "En Codeli Studio, nuestro equipo de expertos trabaja estrechamente con usted para comprender sus desafíos y desarrollar soluciones digitales ...",
+    "match": "quienes somos son mision vision valores equipo responsabilidad social cultura empresarial historia",
+    "url": "about-us"
+  }
+]
