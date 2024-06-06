@@ -18,3 +18,5 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CODELI_STUDIO_1B986 }}
           channelId: live
           projectId: codeli-studio-1b986
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
